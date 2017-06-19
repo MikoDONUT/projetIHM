@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ChoisirFruitEtLegumes
+Partial Class ChoisirProduitDuMonde
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -57,7 +57,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox6.Location = New System.Drawing.Point(256, 346)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox6.TabIndex = 51
+        Me.CheckBox6.TabIndex = 93
         Me.CheckBox6.UseVisualStyleBackColor = True
         '
         'CheckBox5
@@ -66,7 +66,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox5.Location = New System.Drawing.Point(256, 302)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox5.TabIndex = 50
+        Me.CheckBox5.TabIndex = 92
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'CheckBox4
@@ -75,7 +75,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox4.Location = New System.Drawing.Point(256, 261)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox4.TabIndex = 49
+        Me.CheckBox4.TabIndex = 91
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'CheckBox3
@@ -84,7 +84,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox3.Location = New System.Drawing.Point(256, 222)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox3.TabIndex = 48
+        Me.CheckBox3.TabIndex = 90
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox2
@@ -93,7 +93,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox2.Location = New System.Drawing.Point(256, 176)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox2.TabIndex = 47
+        Me.CheckBox2.TabIndex = 89
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'CheckBox1
@@ -102,7 +102,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox1.Location = New System.Drawing.Point(256, 130)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox1.TabIndex = 46
+        Me.CheckBox1.TabIndex = 88
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button6
@@ -110,8 +110,8 @@ Partial Class ChoisirFruitEtLegumes
         Me.Button6.Location = New System.Drawing.Point(11, 340)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(167, 23)
-        Me.Button6.TabIndex = 45
-        Me.Button6.Text = "Lapin"
+        Me.Button6.TabIndex = 87
+        Me.Button6.Text = "Nouille japonaise"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'ComboBox6
@@ -121,15 +121,15 @@ Partial Class ChoisirFruitEtLegumes
         Me.ComboBox6.Location = New System.Drawing.Point(192, 342)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(50, 21)
-        Me.ComboBox6.TabIndex = 44
+        Me.ComboBox6.TabIndex = 86
         '
         'Button5
         '
         Me.Button5.Location = New System.Drawing.Point(11, 297)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(167, 23)
-        Me.Button5.TabIndex = 43
-        Me.Button5.Text = "Navet"
+        Me.Button5.TabIndex = 85
+        Me.Button5.Text = "Tacos mexicain"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ComboBox5
@@ -139,15 +139,15 @@ Partial Class ChoisirFruitEtLegumes
         Me.ComboBox5.Location = New System.Drawing.Point(192, 297)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(50, 21)
-        Me.ComboBox5.TabIndex = 42
+        Me.ComboBox5.TabIndex = 84
         '
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(11, 256)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(167, 23)
-        Me.Button4.TabIndex = 41
-        Me.Button4.Text = "Courgette"
+        Me.Button4.TabIndex = 83
+        Me.Button4.Text = "Gateau à l'orange Lusitana"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'ComboBox4
@@ -157,15 +157,15 @@ Partial Class ChoisirFruitEtLegumes
         Me.ComboBox4.Location = New System.Drawing.Point(192, 258)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(50, 21)
-        Me.ComboBox4.TabIndex = 40
+        Me.ComboBox4.TabIndex = 82
         '
         'Button3
         '
         Me.Button3.Location = New System.Drawing.Point(11, 217)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(167, 23)
-        Me.Button3.TabIndex = 39
-        Me.Button3.Text = "Orange"
+        Me.Button3.TabIndex = 81
+        Me.Button3.Text = "Graine de tournesol "
         Me.Button3.UseVisualStyleBackColor = True
         '
         'ComboBox3
@@ -175,15 +175,15 @@ Partial Class ChoisirFruitEtLegumes
         Me.ComboBox3.Location = New System.Drawing.Point(192, 219)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(50, 21)
-        Me.ComboBox3.TabIndex = 38
+        Me.ComboBox3.TabIndex = 80
         '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(11, 171)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(167, 23)
-        Me.Button2.TabIndex = 37
-        Me.Button2.Text = "Péche"
+        Me.Button2.TabIndex = 79
+        Me.Button2.Text = "Bière reunionnaise"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'ComboBox2
@@ -193,15 +193,15 @@ Partial Class ChoisirFruitEtLegumes
         Me.ComboBox2.Location = New System.Drawing.Point(192, 173)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(50, 21)
-        Me.ComboBox2.TabIndex = 36
+        Me.ComboBox2.TabIndex = 78
         '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(11, 125)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(167, 23)
-        Me.Button1.TabIndex = 35
-        Me.Button1.Text = "Carotte"
+        Me.Button1.TabIndex = 77
+        Me.Button1.Text = "M&M's au beurre de cacahuète"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'ComboBox1
@@ -211,19 +211,19 @@ Partial Class ChoisirFruitEtLegumes
         Me.ComboBox1.Location = New System.Drawing.Point(192, 127)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(50, 21)
-        Me.ComboBox1.TabIndex = 34
+        Me.ComboBox1.TabIndex = 76
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Location = New System.Drawing.Point(76, 53)
+        Me.Label5.Location = New System.Drawing.Point(58, 53)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(208, 31)
-        Me.Label5.TabIndex = 33
-        Me.Label5.Text = "Fruits & Légumes"
+        Me.Label5.Size = New System.Drawing.Size(226, 31)
+        Me.Label5.TabIndex = 75
+        Me.Label5.Text = "Produit du monde"
         '
         'Panel2
         '
@@ -234,7 +234,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.Panel2.Location = New System.Drawing.Point(0, 366)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(284, 46)
-        Me.Panel2.TabIndex = 32
+        Me.Panel2.TabIndex = 74
         '
         'Label4
         '
@@ -276,7 +276,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.Panel1.Location = New System.Drawing.Point(0, -2)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(284, 52)
-        Me.Panel1.TabIndex = 31
+        Me.Panel1.TabIndex = 73
         '
         'Label1
         '
@@ -288,7 +288,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nouvelle Liste"
         '
-        'ChoisirFruitEtLegumes
+        'ChoisirProduitDuMonde
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -314,8 +314,8 @@ Partial Class ChoisirFruitEtLegumes
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "ChoisirFruitEtLegumes"
-        Me.Text = "ChoisirFruitEtLegumes"
+        Me.Name = "ChoisirProduitDuMonde"
+        Me.Text = "ChoisirProduitDuMonde"
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
