@@ -141,7 +141,7 @@ Partial Class ChoisirViande
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(167, 23)
         Me.Button1.TabIndex = 14
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Agneau"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -150,7 +150,7 @@ Partial Class ChoisirViande
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(167, 23)
         Me.Button2.TabIndex = 16
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Aligator"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'ComboBox2
@@ -168,7 +168,7 @@ Partial Class ChoisirViande
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(167, 23)
         Me.Button3.TabIndex = 18
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Veau"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'ComboBox3
@@ -186,7 +186,7 @@ Partial Class ChoisirViande
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(167, 23)
         Me.Button4.TabIndex = 20
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Canard"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'ComboBox4
