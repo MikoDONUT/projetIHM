@@ -94,22 +94,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="share.Designer.vb">
       <DependentUpon>share.vb</DependentUpon>
     </Compile>
     <Compile Include="share.vb">
+=======
+    <Compile Include="NouvelleListe.Designer.vb">
+      <DependentUpon>NouvelleListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NouvelleListe.vb">
+>>>>>>> b7d9e943220d785900a1af51180083a90001ac4b
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="share.resx">
       <DependentUpon>share.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="NouvelleListe.resx">
+      <DependentUpon>NouvelleListe.vb</DependentUpon>
+>>>>>>> b7d9e943220d785900a1af51180083a90001ac4b
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
