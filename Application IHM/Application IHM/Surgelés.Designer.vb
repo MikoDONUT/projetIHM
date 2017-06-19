@@ -111,7 +111,7 @@ Partial Class ChoisirSurgelés
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(167, 23)
         Me.Button6.TabIndex = 45
-        Me.Button6.Text = "Lapin"
+        Me.Button6.Text = "Mars"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'ComboBox6
@@ -129,7 +129,7 @@ Partial Class ChoisirSurgelés
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(167, 23)
         Me.Button5.TabIndex = 43
-        Me.Button5.Text = "Cochon"
+        Me.Button5.Text = "Boulettes de viande"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'ComboBox5
@@ -147,7 +147,7 @@ Partial Class ChoisirSurgelés
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(167, 23)
         Me.Button4.TabIndex = 41
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Extrem fraise"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'ComboBox4
@@ -165,7 +165,7 @@ Partial Class ChoisirSurgelés
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(167, 23)
         Me.Button3.TabIndex = 39
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Oignons frits"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'ComboBox3
@@ -183,7 +183,7 @@ Partial Class ChoisirSurgelés
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(167, 23)
         Me.Button2.TabIndex = 37
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Cordon bleu"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'ComboBox2
@@ -201,7 +201,7 @@ Partial Class ChoisirSurgelés
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(167, 23)
         Me.Button1.TabIndex = 35
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Haagen dazs Caramel"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'ComboBox1
