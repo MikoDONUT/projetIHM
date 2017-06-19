@@ -28,7 +28,7 @@ Partial Class NouvelleListe
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.BtnSurgelé = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -101,16 +101,16 @@ Partial Class NouvelleListe
         Me.Button2.Text = "Sauvegarder"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button3
+        'BtnSurgelé
         '
-        Me.Button3.BackColor = System.Drawing.Color.Aquamarine
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(170, 101)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(92, 82)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Surgelés"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.BtnSurgelé.BackColor = System.Drawing.Color.Aquamarine
+        Me.BtnSurgelé.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSurgelé.Location = New System.Drawing.Point(170, 101)
+        Me.BtnSurgelé.Name = "BtnSurgelé"
+        Me.BtnSurgelé.Size = New System.Drawing.Size(92, 82)
+        Me.BtnSurgelé.TabIndex = 5
+        Me.BtnSurgelé.Text = "Surgelés"
+        Me.BtnSurgelé.UseVisualStyleBackColor = False
         '
         'Button4
         '
@@ -186,7 +186,7 @@ Partial Class NouvelleListe
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.BtnSurgelé)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel2)
@@ -207,7 +207,7 @@ Partial Class NouvelleListe
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents BtnSurgelé As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button

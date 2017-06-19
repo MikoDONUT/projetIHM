@@ -72,6 +72,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChoisirAutre.Designer.vb">
+      <DependentUpon>ChoisirAutre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChoisirAutre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoisirEpice.Designer.vb">
+      <DependentUpon>ChoisirEpice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChoisirEpice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoisirFruitEtLegumes.Designer.vb">
+      <DependentUpon>ChoisirFruitEtLegumes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChoisirFruitEtLegumes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoisirProduitDuMonde.Designer.vb">
+      <DependentUpon>ChoisirProduitDuMonde.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChoisirProduitDuMonde.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ChoisirViande.Designer.vb">
       <DependentUpon>ChoisirViande.vb</DependentUpon>
     </Compile>
@@ -83,12 +107,6 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormOption.Designer.vb">
-      <DependentUpon>FormOption.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormOption.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -112,22 +130,31 @@
     <Compile Include="NouvelleListe.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="share.Designer.vb">
-      <DependentUpon>share.vb</DependentUpon>
+    <Compile Include="Surgelés.Designer.vb">
+      <DependentUpon>Surgelés.vb</DependentUpon>
     </Compile>
-    <Compile Include="share.vb">
+    <Compile Include="Surgelés.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ChoisirAutre.resx">
+      <DependentUpon>ChoisirAutre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoisirEpice.resx">
+      <DependentUpon>ChoisirEpice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoisirFruitEtLegumes.resx">
+      <DependentUpon>ChoisirFruitEtLegumes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoisirProduitDuMonde.resx">
+      <DependentUpon>ChoisirProduitDuMonde.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChoisirViande.resx">
       <DependentUpon>ChoisirViande.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormOption.resx">
-      <DependentUpon>FormOption.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -138,8 +165,8 @@
     <EmbeddedResource Include="NouvelleListe.resx">
       <DependentUpon>NouvelleListe.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="share.resx">
-      <DependentUpon>share.vb</DependentUpon>
+    <EmbeddedResource Include="Surgelés.resx">
+      <DependentUpon>Surgelés.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
