@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChoisirViande.Designer.vb">
+      <DependentUpon>ChoisirViande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChoisirViande.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -94,21 +100,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="share.Designer.vb">
-      <DependentUpon>share.vb</DependentUpon>
-    </Compile>
-    <Compile Include="share.vb">
-=======
     <Compile Include="NouvelleListe.Designer.vb">
       <DependentUpon>NouvelleListe.vb</DependentUpon>
     </Compile>
     <Compile Include="NouvelleListe.vb">
->>>>>>> b7d9e943220d785900a1af51180083a90001ac4b
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ChoisirViande.resx">
+      <DependentUpon>ChoisirViande.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -118,13 +120,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="share.resx">
-      <DependentUpon>share.vb</DependentUpon>
-=======
     <EmbeddedResource Include="NouvelleListe.resx">
       <DependentUpon>NouvelleListe.vb</DependentUpon>
->>>>>>> b7d9e943220d785900a1af51180083a90001ac4b
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
