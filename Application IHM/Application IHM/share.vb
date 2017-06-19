@@ -8,7 +8,10 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnEnvoyer.Click
+
+        Form1.show()
         MsgBox("Vous avez partager votre liste avec un amis !")
+        this.dispose
 
     End Sub
 End Class
