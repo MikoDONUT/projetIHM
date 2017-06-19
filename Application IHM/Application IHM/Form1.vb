@@ -16,7 +16,7 @@
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-
+        share.Show()
     End Sub
 
     Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles Label1.Click
@@ -26,5 +26,9 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         NouvelleListe.Show()
 
+    End Sub
+
+    Private Sub Btnoption_Click(sender As Object, e As EventArgs) Handles Btnoption.Click
+        FormOption.Show()
     End Sub
 End Class
