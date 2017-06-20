@@ -30,4 +30,8 @@
         Form1.Show()
         Me.Dispose()
     End Sub
+
+    Private Sub share_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

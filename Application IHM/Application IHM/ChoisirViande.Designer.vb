@@ -30,24 +30,27 @@ Partial Class ChoisirViande
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.ComboBox6 = New System.Windows.Forms.ComboBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.BtnRetour = New System.Windows.Forms.Button()
+        Me.LblPrixAgneaux = New System.Windows.Forms.Label()
+        Me.LblPrixAli = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -144,26 +147,6 @@ Partial Class ChoisirViande
         Me.ComboBox1.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox1.TabIndex = 13
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(16, 159)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(223, 28)
-        Me.Button1.TabIndex = 14
-        Me.Button1.Text = "Agneau"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(16, 215)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(223, 28)
-        Me.Button2.TabIndex = 16
-        Me.Button2.Text = "Aligator"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
@@ -174,81 +157,21 @@ Partial Class ChoisirViande
         Me.ComboBox2.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox2.TabIndex = 15
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(16, 272)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(223, 28)
-        Me.Button3.TabIndex = 18
-        Me.Button3.Text = "Veau"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox3.Location = New System.Drawing.Point(257, 274)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(65, 24)
-        Me.ComboBox3.TabIndex = 17
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(16, 320)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(223, 28)
-        Me.Button4.TabIndex = 20
-        Me.Button4.Text = "Canard"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox4.Location = New System.Drawing.Point(257, 322)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(65, 24)
-        Me.ComboBox4.TabIndex = 19
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(16, 370)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(223, 28)
-        Me.Button5.TabIndex = 22
-        Me.Button5.Text = "Cochon"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'ComboBox5
         '
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox5.Location = New System.Drawing.Point(257, 370)
+        Me.ComboBox5.Location = New System.Drawing.Point(256, 287)
         Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox5.TabIndex = 21
         '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(16, 423)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(223, 28)
-        Me.Button6.TabIndex = 24
-        Me.Button6.Text = "Lapin"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
         'ComboBox6
         '
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox6.Location = New System.Drawing.Point(257, 426)
+        Me.ComboBox6.Location = New System.Drawing.Point(256, 355)
         Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(65, 24)
@@ -274,30 +197,10 @@ Partial Class ChoisirViande
         Me.CheckBox2.TabIndex = 26
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(343, 278)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox3.TabIndex = 27
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(343, 326)
-        Me.CheckBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox4.TabIndex = 28
-        Me.CheckBox4.UseVisualStyleBackColor = True
-        '
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(343, 377)
+        Me.CheckBox5.Location = New System.Drawing.Point(343, 294)
         Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(18, 17)
@@ -307,7 +210,7 @@ Partial Class ChoisirViande
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(343, 431)
+        Me.CheckBox6.Location = New System.Drawing.Point(343, 362)
         Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(18, 17)
@@ -323,29 +226,149 @@ Partial Class ChoisirViande
         Me.BtnRetour.Text = "Retour"
         Me.BtnRetour.UseVisualStyleBackColor = True
         '
+        'LblPrixAgneaux
+        '
+        Me.LblPrixAgneaux.AutoSize = True
+        Me.LblPrixAgneaux.Location = New System.Drawing.Point(158, 165)
+        Me.LblPrixAgneaux.Name = "LblPrixAgneaux"
+        Me.LblPrixAgneaux.Size = New System.Drawing.Size(24, 17)
+        Me.LblPrixAgneaux.TabIndex = 33
+        Me.LblPrixAgneaux.Text = "15"
+        '
+        'LblPrixAli
+        '
+        Me.LblPrixAli.AutoSize = True
+        Me.LblPrixAli.Location = New System.Drawing.Point(158, 225)
+        Me.LblPrixAli.Name = "LblPrixAli"
+        Me.LblPrixAli.Size = New System.Drawing.Size(24, 17)
+        Me.LblPrixAli.TabIndex = 35
+        Me.LblPrixAli.Text = "50"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(188, 164)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(62, 17)
+        Me.Label9.TabIndex = 37
+        Me.Label9.Text = "euro/kilo"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(188, 287)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(62, 17)
+        Me.Label11.TabIndex = 39
+        Me.Label11.Text = "euro/kilo"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(188, 225)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(62, 17)
+        Me.Label13.TabIndex = 41
+        Me.Label13.Text = "euro/kilo"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(188, 355)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(62, 17)
+        Me.Label14.TabIndex = 42
+        Me.Label14.Text = "euro/kilo"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(166, 284)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(16, 17)
+        Me.Label21.TabIndex = 49
+        Me.Label21.Text = "5"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(158, 355)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(24, 17)
+        Me.Label22.TabIndex = 50
+        Me.Label22.Text = "10"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(147, 415)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(103, 33)
+        Me.Button1.TabIndex = 51
+        Me.Button1.Text = "Appliquer"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(25, 158)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 52
+        Me.Button2.Text = "Agneaux"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(26, 216)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 53
+        Me.Button3.Text = "Aligator"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(25, 281)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 54
+        Me.Button4.Text = "cochon"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(26, 349)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 55
+        Me.Button5.Text = "Lapin"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'ChoisirViande
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.Label21)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.LblPrixAli)
+        Me.Controls.Add(Me.LblPrixAgneaux)
         Me.Controls.Add(Me.BtnRetour)
         Me.Controls.Add(Me.CheckBox6)
         Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.CheckBox4)
-        Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.ComboBox6)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.ComboBox5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Panel2)
@@ -370,22 +393,25 @@ Partial Class ChoisirViande
     Friend WithEvents Label2 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Button3 As Button
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents Button4 As Button
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents Button5 As Button
     Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents Button6 As Button
     Friend WithEvents ComboBox6 As ComboBox
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents CheckBox5 As CheckBox
     Friend WithEvents CheckBox6 As CheckBox
     Friend WithEvents BtnRetour As Button
+    Friend WithEvents LblPrixAgneaux As Label
+    Friend WithEvents LblPrixAli As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

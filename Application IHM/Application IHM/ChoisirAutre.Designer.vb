@@ -316,7 +316,7 @@ Partial Class ChoisirAutre
         '
         'BtnRetour
         '
-        Me.BtnRetour.Location = New System.Drawing.Point(0, 69)
+        Me.BtnRetour.Location = New System.Drawing.Point(15, 69)
         Me.BtnRetour.Name = "BtnRetour"
         Me.BtnRetour.Size = New System.Drawing.Size(75, 23)
         Me.BtnRetour.TabIndex = 94
