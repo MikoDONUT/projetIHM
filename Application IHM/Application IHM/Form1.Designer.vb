@@ -31,6 +31,8 @@ Partial Class Form1
         Me.ListProduit = New System.Windows.Forms.ListBox()
         Me.BtnVoir = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PseudoUser = New System.Windows.Forms.Label()
+        Me.LblPseudo = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -125,12 +127,30 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Magenta
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
         Me.Button1.Location = New System.Drawing.Point(59, 85)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(133, 73)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Log in"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'PseudoUser
+        '
+        Me.PseudoUser.AutoSize = True
+        Me.PseudoUser.Location = New System.Drawing.Point(12, 63)
+        Me.PseudoUser.Name = "PseudoUser"
+        Me.PseudoUser.Size = New System.Drawing.Size(0, 17)
+        Me.PseudoUser.TabIndex = 11
+        '
+        'LblPseudo
+        '
+        Me.LblPseudo.AutoSize = True
+        Me.LblPseudo.Location = New System.Drawing.Point(19, 62)
+        Me.LblPseudo.Name = "LblPseudo"
+        Me.LblPseudo.Size = New System.Drawing.Size(0, 17)
+        Me.LblPseudo.TabIndex = 12
         '
         'Form1
         '
@@ -138,6 +158,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.LblPseudo)
+        Me.Controls.Add(Me.PseudoUser)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.BtnVoir)
         Me.Controls.Add(Me.Btnoption)
@@ -152,6 +174,7 @@ Partial Class Form1
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -164,4 +187,6 @@ Partial Class Form1
     Friend WithEvents ListProduit As ListBox
     Friend WithEvents BtnVoir As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents PseudoUser As Label
+    Friend WithEvents LblPseudo As Label
 End Class

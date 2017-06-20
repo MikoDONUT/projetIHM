@@ -36,28 +36,28 @@ Partial Class CreeId
         '
         'TextBoxPseudo
         '
-        Me.TextBoxPseudo.Location = New System.Drawing.Point(12, 31)
+        Me.TextBoxPseudo.Location = New System.Drawing.Point(60, 110)
         Me.TextBoxPseudo.Name = "TextBoxPseudo"
         Me.TextBoxPseudo.Size = New System.Drawing.Size(100, 22)
         Me.TextBoxPseudo.TabIndex = 0
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(12, 175)
+        Me.TextBox3.Location = New System.Drawing.Point(60, 254)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 22)
         Me.TextBox3.TabIndex = 2
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(12, 130)
+        Me.TextBox4.Location = New System.Drawing.Point(60, 209)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 22)
         Me.TextBox4.TabIndex = 3
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(12, 81)
+        Me.TextBox5.Location = New System.Drawing.Point(60, 160)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 22)
         Me.TextBox5.TabIndex = 4
@@ -73,7 +73,7 @@ Partial Class CreeId
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(204, 12)
+        Me.Button2.Location = New System.Drawing.Point(12, 12)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 6
@@ -83,7 +83,7 @@ Partial Class CreeId
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(131, 31)
+        Me.Label1.Location = New System.Drawing.Point(179, 110)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 7
@@ -92,7 +92,7 @@ Partial Class CreeId
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(131, 84)
+        Me.Label2.Location = New System.Drawing.Point(179, 163)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(37, 17)
         Me.Label2.TabIndex = 8
@@ -101,7 +101,7 @@ Partial Class CreeId
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(131, 135)
+        Me.Label3.Location = New System.Drawing.Point(179, 214)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 17)
         Me.Label3.TabIndex = 9
@@ -110,7 +110,7 @@ Partial Class CreeId
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(131, 178)
+        Me.Label4.Location = New System.Drawing.Point(179, 257)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(33, 17)
         Me.Label4.TabIndex = 10
