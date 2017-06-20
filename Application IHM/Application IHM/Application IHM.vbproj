@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AvertissementSave.Designer.vb">
+      <DependentUpon>AvertissementSave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AvertissementSave.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ChoisirAutre.Designer.vb">
       <DependentUpon>ChoisirAutre.vb</DependentUpon>
     </Compile>
@@ -180,6 +186,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AvertissementSave.resx">
+      <DependentUpon>AvertissementSave.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChoisirAutre.resx">
       <DependentUpon>ChoisirAutre.vb</DependentUpon>
     </EmbeddedResource>
