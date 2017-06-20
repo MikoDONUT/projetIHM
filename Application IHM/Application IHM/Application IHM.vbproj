@@ -109,6 +109,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormOption.Designer.vb">
+      <DependentUpon>FormOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoirListe.Designer.vb">
+      <DependentUpon>FormVoirListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVoirListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -128,6 +140,12 @@
       <DependentUpon>NouvelleListe.vb</DependentUpon>
     </Compile>
     <Compile Include="NouvelleListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="share.Designer.vb">
+      <DependentUpon>share.vb</DependentUpon>
+    </Compile>
+    <Compile Include="share.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Surgelés.Designer.vb">
@@ -156,6 +174,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormOption.resx">
+      <DependentUpon>FormOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoirListe.resx">
+      <DependentUpon>FormVoirListe.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -164,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NouvelleListe.resx">
       <DependentUpon>NouvelleListe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="share.resx">
+      <DependentUpon>share.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Surgelés.resx">
       <DependentUpon>Surgelés.vb</DependentUpon>

@@ -28,6 +28,7 @@ Partial Class FormOption
         Me.CheckBoxDalt = New System.Windows.Forms.CheckBox()
         Me.CheckBoxEco = New System.Windows.Forms.CheckBox()
         Me.BtnAppliquer = New System.Windows.Forms.Button()
+        Me.BtnQuitter = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -80,18 +81,28 @@ Partial Class FormOption
         '
         'BtnAppliquer
         '
-        Me.BtnAppliquer.Location = New System.Drawing.Point(98, 356)
+        Me.BtnAppliquer.Location = New System.Drawing.Point(28, 356)
         Me.BtnAppliquer.Name = "BtnAppliquer"
         Me.BtnAppliquer.Size = New System.Drawing.Size(94, 35)
         Me.BtnAppliquer.TabIndex = 6
         Me.BtnAppliquer.Text = "Appliquer"
         Me.BtnAppliquer.UseVisualStyleBackColor = True
         '
+        'BtnQuitter
+        '
+        Me.BtnQuitter.Location = New System.Drawing.Point(162, 356)
+        Me.BtnQuitter.Name = "BtnQuitter"
+        Me.BtnQuitter.Size = New System.Drawing.Size(94, 35)
+        Me.BtnQuitter.TabIndex = 7
+        Me.BtnQuitter.Text = "Quitter"
+        Me.BtnQuitter.UseVisualStyleBackColor = True
+        '
         'FormOption
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 403)
+        Me.Controls.Add(Me.BtnQuitter)
         Me.Controls.Add(Me.BtnAppliquer)
         Me.Controls.Add(Me.CheckBoxEco)
         Me.Controls.Add(Me.CheckBoxDalt)
@@ -111,4 +122,5 @@ Partial Class FormOption
     Friend WithEvents CheckBoxDalt As CheckBox
     Friend WithEvents CheckBoxEco As CheckBox
     Friend WithEvents BtnAppliquer As Button
+    Friend WithEvents BtnQuitter As Button
 End Class

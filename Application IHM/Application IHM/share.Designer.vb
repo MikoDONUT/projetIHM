@@ -68,9 +68,9 @@ Partial Class share
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.Label2.Location = New System.Drawing.Point(12, 40)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(79, 18)
+        Me.Label2.Size = New System.Drawing.Size(34, 18)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "liste Fesse"
+        Me.Label2.Text = "liste"
         '
         'Label3
         '
@@ -88,6 +88,7 @@ Partial Class share
         Me.ListBox1.Items.AddRange(New Object() {"utilisateur1", "utilisateur2", "utilisateur3", "utilisateur4"})
         Me.ListBox1.Location = New System.Drawing.Point(12, 127)
         Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
         Me.ListBox1.Size = New System.Drawing.Size(207, 68)
         Me.ListBox1.TabIndex = 5
         '

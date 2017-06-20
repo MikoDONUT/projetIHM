@@ -1,4 +1,4 @@
-﻿Public Class ChoisirEpice
+﻿Public Class FormVoirListe
     Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click
         Me.Dispose()
     End Sub
