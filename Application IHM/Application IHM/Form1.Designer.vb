@@ -30,6 +30,7 @@ Partial Class Form1
         Me.Btnoption = New System.Windows.Forms.Button()
         Me.ListProduit = New System.Windows.Forms.ListBox()
         Me.BtnVoir = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -106,9 +107,9 @@ Partial Class Form1
         Me.ListProduit.FormattingEnabled = True
         Me.ListProduit.ItemHeight = 16
         Me.ListProduit.Items.AddRange(New Object() {"liste 1", "liste 2", "liste 3"})
-        Me.ListProduit.Location = New System.Drawing.Point(12, 85)
+        Me.ListProduit.Location = New System.Drawing.Point(12, 197)
         Me.ListProduit.Name = "ListProduit"
-        Me.ListProduit.Size = New System.Drawing.Size(202, 404)
+        Me.ListProduit.Size = New System.Drawing.Size(180, 244)
         Me.ListProduit.TabIndex = 8
         '
         'BtnVoir
@@ -122,12 +123,22 @@ Partial Class Form1
         Me.BtnVoir.Text = "Detail"
         Me.BtnVoir.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(59, 85)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(133, 73)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "Log in"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.BtnVoir)
         Me.Controls.Add(Me.Btnoption)
         Me.Controls.Add(Me.BtnRm)
@@ -152,4 +163,5 @@ Partial Class Form1
     Friend WithEvents Btnoption As Button
     Friend WithEvents ListProduit As ListBox
     Friend WithEvents BtnVoir As Button
+    Friend WithEvents Button1 As Button
 End Class

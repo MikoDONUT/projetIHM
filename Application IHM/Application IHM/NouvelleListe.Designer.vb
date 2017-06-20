@@ -201,9 +201,9 @@ Partial Class NouvelleListe
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(119, 94)
+        Me.Button3.Location = New System.Drawing.Point(119, 81)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(146, 23)
+        Me.Button3.Size = New System.Drawing.Size(146, 36)
         Me.Button3.TabIndex = 11
         Me.Button3.Text = "Scanner un article"
         Me.Button3.UseVisualStyleBackColor = False

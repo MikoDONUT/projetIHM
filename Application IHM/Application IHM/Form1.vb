@@ -63,5 +63,11 @@
 
     Private Sub BtnVoir_Click(sender As Object, e As EventArgs) Handles BtnVoir.Click
         FormVoirListe.Show()
+        FormVoirListe.Label2.Text = ListProduit.SelectedItem
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        SeConnecter.Show()
     End Sub
 End Class

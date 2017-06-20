@@ -102,6 +102,12 @@
     <Compile Include="ChoisirViande.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CreeId.Designer.vb">
+      <DependentUpon>CreeId.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreeId.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,12 @@
     <Compile Include="FormVoirListe.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="IdForm.Designer.vb">
+      <DependentUpon>IdForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IdForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -146,6 +158,12 @@
       <DependentUpon>NouvelleListe.vb</DependentUpon>
     </Compile>
     <Compile Include="NouvelleListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeConnecter.Designer.vb">
+      <DependentUpon>SeConnecter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SeConnecter.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="share.Designer.vb">
@@ -177,6 +195,9 @@
     <EmbeddedResource Include="ChoisirViande.resx">
       <DependentUpon>ChoisirViande.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreeId.resx">
+      <DependentUpon>CreeId.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +210,9 @@
     <EmbeddedResource Include="FormVoirListe.resx">
       <DependentUpon>FormVoirListe.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IdForm.resx">
+      <DependentUpon>IdForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -197,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NouvelleListe.resx">
       <DependentUpon>NouvelleListe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeConnecter.resx">
+      <DependentUpon>SeConnecter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="share.resx">
       <DependentUpon>share.vb</DependentUpon>
