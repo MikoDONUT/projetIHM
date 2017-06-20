@@ -4,6 +4,7 @@
 
     End Sub
 
+    'procedure servant a calculer le prix total des achats
     Public Sub calcl(price As Integer)
         priceTot += price
         Label3.Text = priceTot.ToString

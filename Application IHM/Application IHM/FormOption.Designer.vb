@@ -24,11 +24,13 @@ Partial Class FormOption
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.CheckBoxNuit = New System.Windows.Forms.CheckBox()
-        Me.CheckBoxDalt = New System.Windows.Forms.CheckBox()
         Me.CheckBoxEco = New System.Windows.Forms.CheckBox()
         Me.BtnAppliquer = New System.Windows.Forms.Button()
         Me.BtnQuitter = New System.Windows.Forms.Button()
+        Me.RadioModeNuit = New System.Windows.Forms.RadioButton()
+        Me.RadioModeDaltonien = New System.Windows.Forms.RadioButton()
+        Me.Radioretablir = New System.Windows.Forms.RadioButton()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -49,26 +51,6 @@ Partial Class FormOption
         Me.Button1.Text = "Retour"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'CheckBoxNuit
-        '
-        Me.CheckBoxNuit.AutoSize = True
-        Me.CheckBoxNuit.Location = New System.Drawing.Point(79, 102)
-        Me.CheckBoxNuit.Name = "CheckBoxNuit"
-        Me.CheckBoxNuit.Size = New System.Drawing.Size(94, 21)
-        Me.CheckBoxNuit.TabIndex = 3
-        Me.CheckBoxNuit.Text = "Mode Nuit"
-        Me.CheckBoxNuit.UseVisualStyleBackColor = True
-        '
-        'CheckBoxDalt
-        '
-        Me.CheckBoxDalt.AutoSize = True
-        Me.CheckBoxDalt.Location = New System.Drawing.Point(79, 128)
-        Me.CheckBoxDalt.Name = "CheckBoxDalt"
-        Me.CheckBoxDalt.Size = New System.Drawing.Size(127, 21)
-        Me.CheckBoxDalt.TabIndex = 4
-        Me.CheckBoxDalt.Text = "Mode daltonien"
-        Me.CheckBoxDalt.UseVisualStyleBackColor = True
-        '
         'CheckBoxEco
         '
         Me.CheckBoxEco.AutoSize = True
@@ -81,7 +63,7 @@ Partial Class FormOption
         '
         'BtnAppliquer
         '
-        Me.BtnAppliquer.Location = New System.Drawing.Point(28, 356)
+        Me.BtnAppliquer.Location = New System.Drawing.Point(21, 356)
         Me.BtnAppliquer.Name = "BtnAppliquer"
         Me.BtnAppliquer.Size = New System.Drawing.Size(94, 35)
         Me.BtnAppliquer.TabIndex = 6
@@ -97,16 +79,60 @@ Partial Class FormOption
         Me.BtnQuitter.Text = "Quitter"
         Me.BtnQuitter.UseVisualStyleBackColor = True
         '
+        'RadioModeNuit
+        '
+        Me.RadioModeNuit.AutoSize = True
+        Me.RadioModeNuit.Location = New System.Drawing.Point(79, 101)
+        Me.RadioModeNuit.Name = "RadioModeNuit"
+        Me.RadioModeNuit.Size = New System.Drawing.Size(91, 21)
+        Me.RadioModeNuit.TabIndex = 8
+        Me.RadioModeNuit.TabStop = True
+        Me.RadioModeNuit.Text = "Mode nuit"
+        Me.RadioModeNuit.UseVisualStyleBackColor = True
+        '
+        'RadioModeDaltonien
+        '
+        Me.RadioModeDaltonien.AutoSize = True
+        Me.RadioModeDaltonien.Location = New System.Drawing.Point(79, 128)
+        Me.RadioModeDaltonien.Name = "RadioModeDaltonien"
+        Me.RadioModeDaltonien.Size = New System.Drawing.Size(128, 21)
+        Me.RadioModeDaltonien.TabIndex = 9
+        Me.RadioModeDaltonien.TabStop = True
+        Me.RadioModeDaltonien.Text = "Radio daltonien"
+        Me.RadioModeDaltonien.UseVisualStyleBackColor = True
+        '
+        'Radioretablir
+        '
+        Me.Radioretablir.AutoSize = True
+        Me.Radioretablir.Location = New System.Drawing.Point(79, 74)
+        Me.Radioretablir.Name = "Radioretablir"
+        Me.Radioretablir.Size = New System.Drawing.Size(82, 21)
+        Me.Radioretablir.TabIndex = 10
+        Me.Radioretablir.TabStop = True
+        Me.Radioretablir.Text = "Retablir "
+        Me.Radioretablir.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(93, 315)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(94, 35)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "Retablir"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'FormOption
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 403)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Radioretablir)
+        Me.Controls.Add(Me.RadioModeDaltonien)
+        Me.Controls.Add(Me.RadioModeNuit)
         Me.Controls.Add(Me.BtnQuitter)
         Me.Controls.Add(Me.BtnAppliquer)
         Me.Controls.Add(Me.CheckBoxEco)
-        Me.Controls.Add(Me.CheckBoxDalt)
-        Me.Controls.Add(Me.CheckBoxNuit)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FormOption"
@@ -118,9 +144,11 @@ Partial Class FormOption
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents CheckBoxNuit As CheckBox
-    Friend WithEvents CheckBoxDalt As CheckBox
     Friend WithEvents CheckBoxEco As CheckBox
     Friend WithEvents BtnAppliquer As Button
     Friend WithEvents BtnQuitter As Button
+    Friend WithEvents RadioModeNuit As RadioButton
+    Friend WithEvents RadioModeDaltonien As RadioButton
+    Friend WithEvents Radioretablir As RadioButton
+    Friend WithEvents Button2 As Button
 End Class
