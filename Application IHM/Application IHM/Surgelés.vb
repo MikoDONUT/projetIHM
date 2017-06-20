@@ -21,6 +21,7 @@
             priceSurg += (Convert.ToInt16(LblPrixGlace.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
 
             Label3.Text = priceSurg.ToString
+            NouvelleListe.calcl(priceSurg)
         End If
 
         If CheckBox2.Checked = True Then
@@ -28,6 +29,7 @@
 
             priceSurg += (Convert.ToInt16(LblPrixCordon.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
             Label3.Text = priceSurg.ToString
+            NouvelleListe.calcl(priceSurg)
         End If
 
         If CheckBox3.Checked = True Then
@@ -35,6 +37,7 @@
 
             priceSurg += (Convert.ToInt16(LblPrixOignon.Text) * Convert.ToInt16(ComboBox3.SelectedItem))
             Label3.Text = priceSurg.ToString
+            NouvelleListe.calcl(priceSurg)
         End If
 
         If CheckBox4.Checked = True Then
@@ -42,9 +45,14 @@
 
             priceSurg += (Convert.ToInt16(LblPrixFraise.Text) * Convert.ToInt16(ComboBox4.SelectedItem))
             Label3.Text = priceSurg.ToString
+            NouvelleListe.calcl(priceSurg)
         End If
 
-        NouvelleListe.Label3.Text = priceSurg.ToString
 
+
+    End Sub
+
+    Private Sub BtnRetour_Click_1(sender As Object, e As EventArgs) Handles BtnRetour.Click
+        Me.Dispose()
     End Sub
 End Class

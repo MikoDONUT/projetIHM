@@ -21,6 +21,7 @@
             priceViande += (Convert.ToInt16(LblPrixAgneaux.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
 
             Label3.Text = priceViande.ToString
+            NouvelleListe.calcl(priceViande)
         End If
 
         If CheckBox2.Checked = True Then
@@ -28,6 +29,7 @@
 
             priceViande += (Convert.ToInt16(LblPrixAli.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
             Label3.Text = priceViande.ToString
+            NouvelleListe.calcl(priceViande)
         End If
 
         If CheckBox5.Checked = True Then
@@ -35,6 +37,7 @@
 
             priceViande += (Convert.ToInt16(LblPrixCochon.Text) * Convert.ToInt16(ComboBox5.SelectedItem))
             Label3.Text = priceViande.ToString
+            NouvelleListe.calcl(priceViande)
         End If
 
         If CheckBox5.Checked = True Then
@@ -42,6 +45,7 @@
 
             priceViande += (Convert.ToInt16(LblPrixLapin.Text) * Convert.ToInt16(ComboBox6.SelectedItem))
             Label3.Text = priceViande.ToString
+            NouvelleListe.calcl(priceViande)
         End If
 
         NouvelleListe.Label3.Text = priceViande.ToString
@@ -90,6 +94,10 @@
     End Sub
 
     Private Sub Label21_Click(sender As Object, e As EventArgs) Handles LblPrixCochon.Click
+
+    End Sub
+
+    Private Sub ChoisirViande_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

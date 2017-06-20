@@ -1,9 +1,13 @@
 ﻿Public Class NouvelleListe
-
+    Dim priceTot As Integer = 0
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 
+    Public Sub calcl(price As Integer)
+        priceTot += price
+        Label3.Text = priceTot.ToString
+    End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ChoisirViande.Show()
         'modifier le label de viande a la valeur du text input
@@ -38,6 +42,7 @@
 
     Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click
         Me.Dispose()
+
 
     End Sub
 

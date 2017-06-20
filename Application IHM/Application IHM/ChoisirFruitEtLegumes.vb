@@ -12,6 +12,7 @@
             priceFruit += (Convert.ToInt16(LblPrixCarrote.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
 
             Label3.Text = priceFruit.ToString
+            NouvelleListe.calcl(priceFruit)
         End If
 
         If CheckBox2.Checked = True Then
@@ -19,6 +20,7 @@
 
             priceFruit += (Convert.ToInt16(LblPrixPeche.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
             Label3.Text = priceFruit.ToString
+            NouvelleListe.calcl(priceFruit)
         End If
 
         If CheckBox3.Checked = True Then
@@ -26,6 +28,7 @@
 
             priceFruit += (Convert.ToInt16(LblPrixOrange.Text) * Convert.ToInt16(ComboBox3.SelectedItem))
             Label3.Text = priceFruit.ToString
+            NouvelleListe.calcl(priceFruit)
         End If
 
         If CheckBox4.Checked = True Then
@@ -33,9 +36,10 @@
 
             priceFruit += (Convert.ToInt16(LblPrixCourgette.Text) * Convert.ToInt16(ComboBox4.SelectedItem))
             Label3.Text = priceFruit.ToString
+            NouvelleListe.calcl(priceFruit)
         End If
 
-        NouvelleListe.Label3.Text = priceFruit.ToString
+
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged

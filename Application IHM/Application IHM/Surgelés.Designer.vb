@@ -50,6 +50,7 @@ Partial Class ChoisirSurgelés
         Me.Label9 = New System.Windows.Forms.Label()
         Me.LblPrixCordon = New System.Windows.Forms.Label()
         Me.LblPrixGlace = New System.Windows.Forms.Label()
+        Me.BtnRetour = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -337,11 +338,21 @@ Partial Class ChoisirSurgelés
         Me.LblPrixGlace.TabIndex = 53
         Me.LblPrixGlace.Text = "5"
         '
+        'BtnRetour
+        '
+        Me.BtnRetour.Location = New System.Drawing.Point(25, 81)
+        Me.BtnRetour.Name = "BtnRetour"
+        Me.BtnRetour.Size = New System.Drawing.Size(75, 23)
+        Me.BtnRetour.TabIndex = 61
+        Me.BtnRetour.Text = "Retour"
+        Me.BtnRetour.UseVisualStyleBackColor = True
+        '
         'ChoisirSurgelés
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.BtnRetour)
         Me.Controls.Add(Me.LblPrixFraise)
         Me.Controls.Add(Me.LblPrixOignon)
         Me.Controls.Add(Me.Label14)
@@ -405,4 +416,5 @@ Partial Class ChoisirSurgelés
     Friend WithEvents Label9 As Label
     Friend WithEvents LblPrixCordon As Label
     Friend WithEvents LblPrixGlace As Label
+    Friend WithEvents BtnRetour As Button
 End Class
