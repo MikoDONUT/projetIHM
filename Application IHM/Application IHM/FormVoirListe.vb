@@ -19,4 +19,8 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         LstBoxProduit.Items.Remove(LstBoxProduit.SelectedItem)
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        LstBoxPartager.Items.Remove(LstBoxPartager.SelectedItem)
+    End Sub
 End Class

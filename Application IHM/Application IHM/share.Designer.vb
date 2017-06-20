@@ -45,9 +45,9 @@ Partial Class share
         '
         'BtnEnvoyer
         '
-        Me.BtnEnvoyer.Location = New System.Drawing.Point(104, 6)
+        Me.BtnEnvoyer.Location = New System.Drawing.Point(100, 6)
         Me.BtnEnvoyer.Name = "BtnEnvoyer"
-        Me.BtnEnvoyer.Size = New System.Drawing.Size(75, 23)
+        Me.BtnEnvoyer.Size = New System.Drawing.Size(75, 29)
         Me.BtnEnvoyer.TabIndex = 1
         Me.BtnEnvoyer.Text = "Envoyer"
         Me.BtnEnvoyer.UseVisualStyleBackColor = True
@@ -57,9 +57,9 @@ Partial Class share
         Me.Panel1.BackColor = System.Drawing.Color.Coral
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel1.Controls.Add(Me.BtnEnvoyer)
-        Me.Panel1.Location = New System.Drawing.Point(3, 368)
+        Me.Panel1.Location = New System.Drawing.Point(3, 362)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(267, 32)
+        Me.Panel1.Size = New System.Drawing.Size(267, 38)
         Me.Panel1.TabIndex = 2
         '
         'Label2
