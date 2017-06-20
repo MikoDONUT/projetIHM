@@ -44,8 +44,8 @@ Partial Class ChoisirViande
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
+        Me.LblPrixCochon = New System.Windows.Forms.Label()
+        Me.LblPrixLapin = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -280,23 +280,23 @@ Partial Class ChoisirViande
         Me.Label14.TabIndex = 42
         Me.Label14.Text = "euro/kilo"
         '
-        'Label21
+        'LblPrixCochon
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(166, 284)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(16, 17)
-        Me.Label21.TabIndex = 49
-        Me.Label21.Text = "5"
+        Me.LblPrixCochon.AutoSize = True
+        Me.LblPrixCochon.Location = New System.Drawing.Point(166, 290)
+        Me.LblPrixCochon.Name = "LblPrixCochon"
+        Me.LblPrixCochon.Size = New System.Drawing.Size(16, 17)
+        Me.LblPrixCochon.TabIndex = 49
+        Me.LblPrixCochon.Text = "5"
         '
-        'Label22
+        'LblPrixLapin
         '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(158, 355)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(24, 17)
-        Me.Label22.TabIndex = 50
-        Me.Label22.Text = "10"
+        Me.LblPrixLapin.AutoSize = True
+        Me.LblPrixLapin.Location = New System.Drawing.Point(158, 355)
+        Me.LblPrixLapin.Name = "LblPrixLapin"
+        Me.LblPrixLapin.Size = New System.Drawing.Size(24, 17)
+        Me.LblPrixLapin.TabIndex = 50
+        Me.LblPrixLapin.Text = "10"
         '
         'Button1
         '
@@ -353,8 +353,8 @@ Partial Class ChoisirViande
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label22)
-        Me.Controls.Add(Me.Label21)
+        Me.Controls.Add(Me.LblPrixLapin)
+        Me.Controls.Add(Me.LblPrixCochon)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label11)
@@ -407,8 +407,8 @@ Partial Class ChoisirViande
     Friend WithEvents Label11 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label22 As Label
+    Friend WithEvents LblPrixCochon As Label
+    Friend WithEvents LblPrixLapin As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button

@@ -47,7 +47,7 @@ Partial Class NouvelleListe
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Location = New System.Drawing.Point(3, 449)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(379, 57)
         Me.Panel2.TabIndex = 2
@@ -93,7 +93,7 @@ Partial Class NouvelleListe
         Me.Button1.BackColor = System.Drawing.Color.Red
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(40, 124)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(123, 101)
         Me.Button1.TabIndex = 3
@@ -104,7 +104,7 @@ Partial Class NouvelleListe
         '
         Me.Button2.BackColor = System.Drawing.Color.Yellow
         Me.Button2.Location = New System.Drawing.Point(268, 63)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 37)
         Me.Button2.TabIndex = 4
@@ -116,7 +116,7 @@ Partial Class NouvelleListe
         Me.BtnSurgelé.BackColor = System.Drawing.Color.Aquamarine
         Me.BtnSurgelé.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSurgelé.Location = New System.Drawing.Point(227, 124)
-        Me.BtnSurgelé.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BtnSurgelé.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnSurgelé.Name = "BtnSurgelé"
         Me.BtnSurgelé.Size = New System.Drawing.Size(123, 101)
         Me.BtnSurgelé.TabIndex = 5
@@ -128,7 +128,7 @@ Partial Class NouvelleListe
         Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(227, 233)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(123, 101)
         Me.Button4.TabIndex = 6
@@ -140,7 +140,7 @@ Partial Class NouvelleListe
         Me.Button5.BackColor = System.Drawing.Color.Green
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(40, 233)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(123, 101)
         Me.Button5.TabIndex = 7
@@ -151,7 +151,7 @@ Partial Class NouvelleListe
         '
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.Location = New System.Drawing.Point(227, 341)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(123, 101)
         Me.Button6.TabIndex = 8
@@ -163,7 +163,7 @@ Partial Class NouvelleListe
         Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.Location = New System.Drawing.Point(40, 341)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(123, 101)
         Me.Button7.TabIndex = 9
@@ -212,7 +212,7 @@ Partial Class NouvelleListe
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "NouvelleListe"
         Me.Text = "NouvelleListe"
         Me.Panel2.ResumeLayout(False)

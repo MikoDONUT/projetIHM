@@ -22,16 +22,10 @@ Partial Class ChoisirFruitEtLegumes
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -48,29 +42,18 @@ Partial Class ChoisirFruitEtLegumes
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnRetour = New System.Windows.Forms.Button()
+        Me.LblPrixCourgette = New System.Windows.Forms.Label()
+        Me.LblPrixOrange = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.LblPrixPeche = New System.Windows.Forms.Label()
+        Me.LblPrixCarrote = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(341, 426)
-        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox6.TabIndex = 51
-        Me.CheckBox6.UseVisualStyleBackColor = True
-        '
-        'CheckBox5
-        '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(341, 372)
-        Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(18, 17)
-        Me.CheckBox5.TabIndex = 50
-        Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'CheckBox4
         '
@@ -112,52 +95,12 @@ Partial Class ChoisirFruitEtLegumes
         Me.CheckBox1.TabIndex = 46
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(15, 418)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(223, 28)
-        Me.Button6.TabIndex = 45
-        Me.Button6.Text = "Lapin"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'ComboBox6
-        '
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox6.Location = New System.Drawing.Point(256, 421)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(65, 24)
-        Me.ComboBox6.TabIndex = 44
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(15, 366)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(223, 28)
-        Me.Button5.TabIndex = 43
-        Me.Button5.Text = "Navet"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'ComboBox5
-        '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox5.Location = New System.Drawing.Point(256, 366)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(65, 24)
-        Me.ComboBox5.TabIndex = 42
-        '
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(15, 315)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(223, 28)
+        Me.Button4.Size = New System.Drawing.Size(132, 28)
         Me.Button4.TabIndex = 41
         Me.Button4.Text = "Courgette"
         Me.Button4.UseVisualStyleBackColor = True
@@ -177,7 +120,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.Button3.Location = New System.Drawing.Point(15, 267)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(223, 28)
+        Me.Button3.Size = New System.Drawing.Size(132, 28)
         Me.Button3.TabIndex = 39
         Me.Button3.Text = "Orange"
         Me.Button3.UseVisualStyleBackColor = True
@@ -197,7 +140,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.Button2.Location = New System.Drawing.Point(15, 210)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(223, 28)
+        Me.Button2.Size = New System.Drawing.Size(132, 28)
         Me.Button2.TabIndex = 37
         Me.Button2.Text = "Péche"
         Me.Button2.UseVisualStyleBackColor = True
@@ -217,7 +160,7 @@ Partial Class ChoisirFruitEtLegumes
         Me.Button1.Location = New System.Drawing.Point(15, 154)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(223, 28)
+        Me.Button1.Size = New System.Drawing.Size(132, 28)
         Me.Button1.TabIndex = 35
         Me.Button1.Text = "Carotte"
         Me.Button1.UseVisualStyleBackColor = True
@@ -323,22 +266,106 @@ Partial Class ChoisirFruitEtLegumes
         Me.BtnRetour.Text = "Retour"
         Me.BtnRetour.UseVisualStyleBackColor = True
         '
+        'LblPrixCourgette
+        '
+        Me.LblPrixCourgette.AutoSize = True
+        Me.LblPrixCourgette.Location = New System.Drawing.Point(157, 326)
+        Me.LblPrixCourgette.Name = "LblPrixCourgette"
+        Me.LblPrixCourgette.Size = New System.Drawing.Size(24, 17)
+        Me.LblPrixCourgette.TabIndex = 60
+        Me.LblPrixCourgette.Text = "10"
+        '
+        'LblPrixOrange
+        '
+        Me.LblPrixOrange.AutoSize = True
+        Me.LblPrixOrange.Location = New System.Drawing.Point(165, 273)
+        Me.LblPrixOrange.Name = "LblPrixOrange"
+        Me.LblPrixOrange.Size = New System.Drawing.Size(16, 17)
+        Me.LblPrixOrange.TabIndex = 59
+        Me.LblPrixOrange.Text = "5"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(187, 326)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(62, 17)
+        Me.Label14.TabIndex = 58
+        Me.Label14.Text = "euro/kilo"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(187, 215)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(62, 17)
+        Me.Label13.TabIndex = 57
+        Me.Label13.Text = "euro/kilo"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(187, 273)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(62, 17)
+        Me.Label11.TabIndex = 56
+        Me.Label11.Text = "euro/kilo"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(187, 154)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(62, 17)
+        Me.Label9.TabIndex = 55
+        Me.Label9.Text = "euro/kilo"
+        '
+        'LblPrixPeche
+        '
+        Me.LblPrixPeche.AutoSize = True
+        Me.LblPrixPeche.Location = New System.Drawing.Point(165, 216)
+        Me.LblPrixPeche.Name = "LblPrixPeche"
+        Me.LblPrixPeche.Size = New System.Drawing.Size(16, 17)
+        Me.LblPrixPeche.TabIndex = 54
+        Me.LblPrixPeche.Text = "5"
+        '
+        'LblPrixCarrote
+        '
+        Me.LblPrixCarrote.AutoSize = True
+        Me.LblPrixCarrote.Location = New System.Drawing.Point(157, 155)
+        Me.LblPrixCarrote.Name = "LblPrixCarrote"
+        Me.LblPrixCarrote.Size = New System.Drawing.Size(24, 17)
+        Me.LblPrixCarrote.TabIndex = 53
+        Me.LblPrixCarrote.Text = "15"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(147, 414)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(86, 29)
+        Me.Button5.TabIndex = 61
+        Me.Button5.Text = "Appliquer"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'ChoisirFruitEtLegumes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.LblPrixCourgette)
+        Me.Controls.Add(Me.LblPrixOrange)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.LblPrixPeche)
+        Me.Controls.Add(Me.LblPrixCarrote)
         Me.Controls.Add(Me.BtnRetour)
-        Me.Controls.Add(Me.CheckBox6)
-        Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.ComboBox6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.ComboBox5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.Button3)
@@ -361,17 +388,10 @@ Partial Class ChoisirFruitEtLegumes
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
     Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents Button6 As Button
-    Friend WithEvents ComboBox6 As ComboBox
-    Friend WithEvents Button5 As Button
-    Friend WithEvents ComboBox5 As ComboBox
     Friend WithEvents Button4 As Button
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents Button3 As Button
@@ -388,4 +408,13 @@ Partial Class ChoisirFruitEtLegumes
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents BtnRetour As Button
+    Friend WithEvents LblPrixCourgette As Label
+    Friend WithEvents LblPrixOrange As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents LblPrixPeche As Label
+    Friend WithEvents LblPrixCarrote As Label
+    Friend WithEvents Button5 As Button
 End Class

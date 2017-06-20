@@ -13,20 +13,38 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim priceViande As New Integer
+
         If CheckBox1.Checked = True Then
-            FormVoirListe.ListBox1.Items.Add(LblNomAgneau.Text)
-            Dim price As Integer
-            price = (Convert.ToInt16(LblPrixAgneaux.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
-            Label3.Text = price.ToString
+            FormVoirListe.ListBox1.Items.Add(Button2.Text)
+
+            priceViande += (Convert.ToInt16(LblPrixAgneaux.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
+
+            Label3.Text = priceViande.ToString
         End If
 
         If CheckBox2.Checked = True Then
-            FormVoirListe.ListBox1.Items.Add(Label6.Text)
-            Dim priceAli As Integer
-            priceAli = (Convert.ToInt16(LblPrixAli.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
-            Label3.Text = priceAli.ToString
+            FormVoirListe.ListBox1.Items.Add(Button3.Text)
+
+            priceViande += (Convert.ToInt16(LblPrixAli.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
+            Label3.Text = priceViande.ToString
         End If
 
+        If CheckBox5.Checked = True Then
+            FormVoirListe.ListBox1.Items.Add(Button3.Text)
+
+            priceViande += (Convert.ToInt16(LblPrixCochon.Text) * Convert.ToInt16(ComboBox5.SelectedItem))
+            Label3.Text = priceViande.ToString
+        End If
+
+        If CheckBox5.Checked = True Then
+            FormVoirListe.ListBox1.Items.Add(Button5.Text)
+
+            priceViande += (Convert.ToInt16(LblPrixLapin.Text) * Convert.ToInt16(ComboBox6.SelectedItem))
+            Label3.Text = priceViande.ToString
+        End If
+
+        NouvelleListe.Label3.Text = priceViande.ToString
 
 
     End Sub
@@ -56,6 +74,22 @@
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+    End Sub
+
+    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox5.CheckedChanged
+
+    End Sub
+
+    Private Sub Label21_Click(sender As Object, e As EventArgs) Handles LblPrixCochon.Click
 
     End Sub
 End Class
