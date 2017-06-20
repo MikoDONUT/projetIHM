@@ -27,8 +27,6 @@
             NouvelleListe.BackColor = System.Drawing.Color.DarkGreen
             share.BackColor = System.Drawing.Color.DarkGreen
 
-
-
         End If
 
         'Pour mode nuit
@@ -44,10 +42,9 @@
             ChoisirViande.BackColor = System.Drawing.Color.Black
             NouvelleListe.BackColor = System.Drawing.Color.Black
             share.BackColor = System.Drawing.Color.Black
-            Radioretablir.ForeColor = Color.White
+
             RadioModeNuit.ForeColor = Color.White
             RadioModeDaltonien.ForeColor = Color.White
-
 
             'changer la couleur du text
             Dim ctl As Control
@@ -57,8 +54,6 @@
                     ctl.ForeColor = Color.White
                 End If
             Next ctl
-
-
 
         End If
 
@@ -81,7 +76,7 @@
         ChoisirViande.BackColor = System.Drawing.Color.White
         NouvelleListe.BackColor = System.Drawing.Color.White
         share.BackColor = System.Drawing.Color.White
-        Radioretablir.ForeColor = Color.Black
+
         RadioModeNuit.ForeColor = Color.Black
         RadioModeDaltonien.ForeColor = Color.Black
 

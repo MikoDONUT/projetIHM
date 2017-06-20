@@ -29,7 +29,6 @@ Partial Class FormOption
         Me.BtnQuitter = New System.Windows.Forms.Button()
         Me.RadioModeNuit = New System.Windows.Forms.RadioButton()
         Me.RadioModeDaltonien = New System.Windows.Forms.RadioButton()
-        Me.Radioretablir = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -101,24 +100,13 @@ Partial Class FormOption
         Me.RadioModeDaltonien.Text = "Radio daltonien"
         Me.RadioModeDaltonien.UseVisualStyleBackColor = True
         '
-        'Radioretablir
-        '
-        Me.Radioretablir.AutoSize = True
-        Me.Radioretablir.Location = New System.Drawing.Point(79, 74)
-        Me.Radioretablir.Name = "Radioretablir"
-        Me.Radioretablir.Size = New System.Drawing.Size(82, 21)
-        Me.Radioretablir.TabIndex = 10
-        Me.Radioretablir.TabStop = True
-        Me.Radioretablir.Text = "Retablir "
-        Me.Radioretablir.UseVisualStyleBackColor = True
-        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(93, 315)
+        Me.Button2.Location = New System.Drawing.Point(93, 301)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(94, 35)
+        Me.Button2.Size = New System.Drawing.Size(94, 49)
         Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Retablir"
+        Me.Button2.Text = "Retablir par defaut"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'FormOption
@@ -127,7 +115,6 @@ Partial Class FormOption
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 403)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Radioretablir)
         Me.Controls.Add(Me.RadioModeDaltonien)
         Me.Controls.Add(Me.RadioModeNuit)
         Me.Controls.Add(Me.BtnQuitter)
@@ -149,6 +136,5 @@ Partial Class FormOption
     Friend WithEvents BtnQuitter As Button
     Friend WithEvents RadioModeNuit As RadioButton
     Friend WithEvents RadioModeDaltonien As RadioButton
-    Friend WithEvents Radioretablir As RadioButton
     Friend WithEvents Button2 As Button
 End Class

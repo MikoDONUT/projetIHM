@@ -36,6 +36,7 @@ Partial Class NouvelleListe
         Me.BtnRetour = New System.Windows.Forms.Button()
         Me.BoxNewList = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -172,9 +173,9 @@ Partial Class NouvelleListe
         '
         'BtnRetour
         '
-        Me.BtnRetour.Location = New System.Drawing.Point(12, 77)
+        Me.BtnRetour.Location = New System.Drawing.Point(3, 63)
         Me.BtnRetour.Name = "BtnRetour"
-        Me.BtnRetour.Size = New System.Drawing.Size(75, 23)
+        Me.BtnRetour.Size = New System.Drawing.Size(110, 37)
         Me.BtnRetour.TabIndex = 10
         Me.BtnRetour.Text = "Retour"
         Me.BtnRetour.UseVisualStyleBackColor = True
@@ -197,11 +198,22 @@ Partial Class NouvelleListe
         Me.Panel1.Size = New System.Drawing.Size(379, 64)
         Me.Panel1.TabIndex = 1
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button3.Location = New System.Drawing.Point(119, 94)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(146, 23)
+        Me.Button3.TabIndex = 11
+        Me.Button3.Text = "Scanner un article"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'NouvelleListe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.BtnRetour)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
@@ -236,4 +248,5 @@ Partial Class NouvelleListe
     Friend WithEvents BtnRetour As Button
     Friend WithEvents BoxNewList As TextBox
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Button3 As Button
 End Class
