@@ -51,6 +51,10 @@ Partial Class ChoisirAutre
         Me.Label9 = New System.Windows.Forms.Label()
         Me.LblPrixPoussette = New System.Windows.Forms.Label()
         Me.LblPrixGob = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.ListBox4 = New System.Windows.Forms.ListBox()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -58,49 +62,44 @@ Partial Class ChoisirAutre
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(348, 338)
-        Me.CheckBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox4.Location = New System.Drawing.Point(261, 275)
         Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(18, 17)
+        Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox4.TabIndex = 91
         Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(341, 273)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox3.Location = New System.Drawing.Point(256, 222)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(18, 17)
+        Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 90
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(341, 217)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox2.Location = New System.Drawing.Point(256, 176)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(18, 17)
+        Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox2.TabIndex = 89
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(341, 150)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox1.Location = New System.Drawing.Point(256, 122)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(18, 17)
+        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 88
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(15, 315)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Location = New System.Drawing.Point(11, 256)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(126, 54)
+        Me.Button4.Size = New System.Drawing.Size(94, 44)
         Me.Button4.TabIndex = 83
         Me.Button4.Text = "Chewing gum menthe"
         Me.Button4.UseVisualStyleBackColor = True
@@ -109,18 +108,16 @@ Partial Class ChoisirAutre
         '
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox4.Location = New System.Drawing.Point(268, 334)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox4.Location = New System.Drawing.Point(201, 271)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(65, 24)
+        Me.ComboBox4.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox4.TabIndex = 82
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(15, 267)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Location = New System.Drawing.Point(11, 217)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(126, 28)
+        Me.Button3.Size = New System.Drawing.Size(94, 23)
         Me.Button3.TabIndex = 81
         Me.Button3.Text = "Porte clés"
         Me.Button3.UseVisualStyleBackColor = True
@@ -129,18 +126,16 @@ Partial Class ChoisirAutre
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox3.Location = New System.Drawing.Point(256, 270)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox3.Location = New System.Drawing.Point(192, 219)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(65, 24)
+        Me.ComboBox3.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox3.TabIndex = 80
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(15, 210)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(11, 171)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(126, 49)
+        Me.Button2.Size = New System.Drawing.Size(94, 40)
         Me.Button2.TabIndex = 79
         Me.Button2.Text = "Poussette 2 places"
         Me.Button2.UseVisualStyleBackColor = True
@@ -149,18 +144,16 @@ Partial Class ChoisirAutre
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox2.Location = New System.Drawing.Point(256, 213)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox2.Location = New System.Drawing.Point(192, 173)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(65, 24)
+        Me.ComboBox2.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox2.TabIndex = 78
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(15, 140)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Location = New System.Drawing.Point(11, 114)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 42)
+        Me.Button1.Size = New System.Drawing.Size(94, 34)
         Me.Button1.TabIndex = 77
         Me.Button1.Text = "Gobelet en plastique"
         Me.Button1.UseVisualStyleBackColor = True
@@ -169,10 +162,9 @@ Partial Class ChoisirAutre
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox1.Location = New System.Drawing.Point(256, 146)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox1.Location = New System.Drawing.Point(192, 119)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(65, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox1.TabIndex = 76
         '
         'Label5
@@ -181,10 +173,9 @@ Partial Class ChoisirAutre
         Me.Label5.BackColor = System.Drawing.Color.White
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label5.Location = New System.Drawing.Point(273, 65)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(205, 53)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 39)
+        Me.Label5.Size = New System.Drawing.Size(79, 31)
         Me.Label5.TabIndex = 75
         Me.Label5.Text = "Autre"
         '
@@ -194,10 +185,9 @@ Partial Class ChoisirAutre
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Location = New System.Drawing.Point(0, 450)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel2.Location = New System.Drawing.Point(0, 366)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(379, 57)
+        Me.Panel2.Size = New System.Drawing.Size(284, 46)
         Me.Panel2.TabIndex = 74
         '
         'Label4
@@ -205,10 +195,9 @@ Partial Class ChoisirAutre
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Location = New System.Drawing.Point(308, 7)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(231, 6)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(36, 39)
+        Me.Label4.Size = New System.Drawing.Size(29, 31)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "‎€"
         '
@@ -217,10 +206,9 @@ Partial Class ChoisirAutre
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(197, 17)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(148, 14)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 29)
+        Me.Label3.Size = New System.Drawing.Size(50, 22)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "0000"
         '
@@ -229,10 +217,9 @@ Partial Class ChoisirAutre
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(5, 7)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(4, 6)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(136, 39)
+        Me.Label2.Size = New System.Drawing.Size(110, 31)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "TOTAL:"
         '
@@ -241,36 +228,36 @@ Partial Class ChoisirAutre
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(0, -2)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(379, 64)
+        Me.Panel1.Size = New System.Drawing.Size(284, 52)
         Me.Panel1.TabIndex = 73
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(4, 10)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(3, 8)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(294, 51)
+        Me.Label1.Size = New System.Drawing.Size(232, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nouvelle Liste"
         '
         'BtnRetour
         '
-        Me.BtnRetour.Location = New System.Drawing.Point(15, 69)
+        Me.BtnRetour.Location = New System.Drawing.Point(11, 56)
+        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnRetour.Name = "BtnRetour"
-        Me.BtnRetour.Size = New System.Drawing.Size(75, 23)
+        Me.BtnRetour.Size = New System.Drawing.Size(56, 19)
         Me.BtnRetour.TabIndex = 94
         Me.BtnRetour.Text = "Retour"
         Me.BtnRetour.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(163, 405)
+        Me.Button5.Location = New System.Drawing.Point(122, 329)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(103, 33)
+        Me.Button5.Size = New System.Drawing.Size(77, 27)
         Me.Button5.TabIndex = 112
         Me.Button5.Text = "Appliquer"
         Me.Button5.UseVisualStyleBackColor = True
@@ -278,81 +265,133 @@ Partial Class ChoisirAutre
         'LblPrixgum
         '
         Me.LblPrixgum.AutoSize = True
-        Me.LblPrixgum.Location = New System.Drawing.Point(165, 334)
+        Me.LblPrixgum.Location = New System.Drawing.Point(124, 271)
+        Me.LblPrixgum.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblPrixgum.Name = "LblPrixgum"
-        Me.LblPrixgum.Size = New System.Drawing.Size(24, 17)
+        Me.LblPrixgum.Size = New System.Drawing.Size(19, 13)
         Me.LblPrixgum.TabIndex = 111
         Me.LblPrixgum.Text = "10"
         '
         'LblPrixPorteClef
         '
         Me.LblPrixPorteClef.AutoSize = True
-        Me.LblPrixPorteClef.Location = New System.Drawing.Point(165, 278)
+        Me.LblPrixPorteClef.Location = New System.Drawing.Point(124, 226)
+        Me.LblPrixPorteClef.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblPrixPorteClef.Name = "LblPrixPorteClef"
-        Me.LblPrixPorteClef.Size = New System.Drawing.Size(16, 17)
+        Me.LblPrixPorteClef.Size = New System.Drawing.Size(13, 13)
         Me.LblPrixPorteClef.TabIndex = 110
         Me.LblPrixPorteClef.Text = "3"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(199, 334)
+        Me.Label14.Location = New System.Drawing.Point(149, 271)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(62, 17)
+        Me.Label14.Size = New System.Drawing.Size(49, 13)
         Me.Label14.TabIndex = 109
         Me.Label14.Text = "euro/kilo"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(187, 220)
+        Me.Label13.Location = New System.Drawing.Point(140, 179)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(62, 17)
+        Me.Label13.Size = New System.Drawing.Size(49, 13)
         Me.Label13.TabIndex = 108
         Me.Label13.Text = "euro/kilo"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(187, 278)
+        Me.Label11.Location = New System.Drawing.Point(140, 226)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(62, 17)
+        Me.Label11.Size = New System.Drawing.Size(49, 13)
         Me.Label11.TabIndex = 107
         Me.Label11.Text = "euro/kilo"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(187, 156)
+        Me.Label9.Location = New System.Drawing.Point(140, 127)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(62, 17)
+        Me.Label9.Size = New System.Drawing.Size(49, 13)
         Me.Label9.TabIndex = 106
         Me.Label9.Text = "euro/kilo"
         '
         'LblPrixPoussette
         '
         Me.LblPrixPoussette.AutoSize = True
-        Me.LblPrixPoussette.Location = New System.Drawing.Point(160, 220)
+        Me.LblPrixPoussette.Location = New System.Drawing.Point(120, 179)
+        Me.LblPrixPoussette.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblPrixPoussette.Name = "LblPrixPoussette"
-        Me.LblPrixPoussette.Size = New System.Drawing.Size(16, 17)
+        Me.LblPrixPoussette.Size = New System.Drawing.Size(13, 13)
         Me.LblPrixPoussette.TabIndex = 105
         Me.LblPrixPoussette.Text = "7"
         '
         'LblPrixGob
         '
         Me.LblPrixGob.AutoSize = True
-        Me.LblPrixGob.Location = New System.Drawing.Point(160, 153)
+        Me.LblPrixGob.Location = New System.Drawing.Point(120, 124)
+        Me.LblPrixGob.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblPrixGob.Name = "LblPrixGob"
-        Me.LblPrixGob.Size = New System.Drawing.Size(16, 17)
+        Me.LblPrixGob.Size = New System.Drawing.Size(13, 13)
         Me.LblPrixGob.TabIndex = 104
         Me.LblPrixGob.Text = "5"
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {"Poids : 2g piéce", "Marque : Gobigoba", "Pays : France", "Bio : NON"})
+        Me.ListBox1.Location = New System.Drawing.Point(11, 145)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(94, 56)
+        Me.ListBox1.TabIndex = 113
+        Me.ListBox1.Visible = False
+        '
+        'ListBox2
+        '
+        Me.ListBox2.FormattingEnabled = True
+        Me.ListBox2.Items.AddRange(New Object() {"Poids : 5kg piéce", "Marque : Poussapussy", "Pays : France", "Bio : NON"})
+        Me.ListBox2.Location = New System.Drawing.Point(12, 236)
+        Me.ListBox2.Name = "ListBox2"
+        Me.ListBox2.Size = New System.Drawing.Size(94, 56)
+        Me.ListBox2.TabIndex = 114
+        Me.ListBox2.Visible = False
+        '
+        'ListBox3
+        '
+        Me.ListBox3.FormattingEnabled = True
+        Me.ListBox3.Items.AddRange(New Object() {"Poids : 10g piéce", "Marque : The portman", "Pays : Allemagne", "Bio : NON"})
+        Me.ListBox3.Location = New System.Drawing.Point(12, 207)
+        Me.ListBox3.Name = "ListBox3"
+        Me.ListBox3.Size = New System.Drawing.Size(94, 56)
+        Me.ListBox3.TabIndex = 115
+        Me.ListBox3.Visible = False
+        '
+        'ListBox4
+        '
+        Me.ListBox4.FormattingEnabled = True
+        Me.ListBox4.Items.AddRange(New Object() {"Poids : 10g piéce", "Marque : Holy-gum-gum", "Pays : Etats Unis", "Bio : NON"})
+        Me.ListBox4.Location = New System.Drawing.Point(12, 290)
+        Me.ListBox4.Name = "ListBox4"
+        Me.ListBox4.Size = New System.Drawing.Size(94, 56)
+        Me.ListBox4.TabIndex = 116
+        Me.ListBox4.Visible = False
+        '
         'ChoisirAutre
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.ClientSize = New System.Drawing.Size(284, 411)
+        Me.Controls.Add(Me.ListBox4)
+        Me.Controls.Add(Me.ListBox3)
+        Me.Controls.Add(Me.ListBox2)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.LblPrixgum)
         Me.Controls.Add(Me.LblPrixPorteClef)
@@ -378,7 +417,6 @@ Partial Class ChoisirAutre
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ChoisirAutre"
         Me.Text = "ChoisirAutre"
         Me.Panel2.ResumeLayout(False)
@@ -418,4 +456,8 @@ Partial Class ChoisirAutre
     Friend WithEvents Label9 As Label
     Friend WithEvents LblPrixPoussette As Label
     Friend WithEvents LblPrixGob As Label
+    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents ListBox2 As ListBox
+    Friend WithEvents ListBox3 As ListBox
+    Friend WithEvents ListBox4 As ListBox
 End Class
