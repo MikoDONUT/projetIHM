@@ -15,6 +15,7 @@
             'Si les text box sont correctement remplis
         Else
             MsgBox("Bienvenue " & PseudoBox.Text)
+            'Administrie le pseudo au label de la form de depart
             Form1.LblPseudo.Text = PseudoBox.Text
             Me.Dispose()
             SeConnecter.Dispose()

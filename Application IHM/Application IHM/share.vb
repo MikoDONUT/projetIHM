@@ -18,6 +18,7 @@
             MsgBox("Erreur ! Il faut selectionner un contact")
         Else
             Form1.Show()
+            FormVoirListe.LstBoxPartager.Items.Add(ListBox1.SelectedItem)
             MsgBox("Vous avez partager votre liste avec " & ListBox1.SelectedItem)
         End If
 

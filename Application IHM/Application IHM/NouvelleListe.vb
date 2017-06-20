@@ -1,5 +1,6 @@
 ﻿Public Class NouvelleListe
     Dim priceTot As Integer = 0
+    Public btnSaveClicked As Boolean = False
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
@@ -42,12 +43,18 @@
     End Sub
 
     Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click
-        Me.Dispose()
+        'Verifie si la liste a bien ete enrengistrer avant de faire un retour
+        If btnSaveClicked = True Then
+            Me.Dispose()
+        Else
+            AvertissementSave.Show()
+        End If
 
 
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        btnSaveClicked = True
         Form1.ListProduit.Items.Add(BoxNewList.Text)
         MsgBox("Votre Liste a ete sauvegarder")
     End Sub
@@ -68,6 +75,14 @@
 
     End Sub
 
+    Private Sub NouvelleListe_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        'Verifie si la liste a bien ete enrengistrer avant de fermer la fenetre
+        If Not btnSaveClicked Then
+            e.Cancel = True
+            AvertissementSave.Show() 'afficher un avertissement
+        End If
+
+    End Sub
     Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles Button3.Click
         FormScann.Show()
     End Sub

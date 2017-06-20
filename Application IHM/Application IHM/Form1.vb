@@ -58,10 +58,14 @@
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles BtnRm.Click
+        'Pour supprimer des items de la liste box
+        MsgBox("Votre liste " & ListProduit.SelectedItem & " a bien ete supprimer")
         ListProduit.Items.Remove(ListProduit.SelectedItem)
+
     End Sub
 
     Private Sub BtnVoir_Click(sender As Object, e As EventArgs) Handles BtnVoir.Click
+        'Pour voir les element d'une liste box
         FormVoirListe.Show()
         FormVoirListe.Label2.Text = ListProduit.SelectedItem
 
