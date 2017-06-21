@@ -94,5 +94,12 @@
         If RadioModeDaltonien.Checked = True Then
             RadioModeDaltonien.Checked = False
         End If
+        If CheckBoxEco.Checked = True Then
+            CheckBoxEco.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBoxEco_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxEco.CheckedChanged
+
     End Sub
 End Class

@@ -33,6 +33,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PseudoUser = New System.Windows.Forms.Label()
         Me.LblPseudo = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -53,13 +54,14 @@ Partial Class Form1
         Me.Label1.Location = New System.Drawing.Point(64, 6)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(229, 51)
+        Me.Label1.Size = New System.Drawing.Size(189, 51)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Mes Listes"
+        Me.Label1.Text = "ScanList"
         '
         'BtnNew
         '
         Me.BtnNew.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BtnNew.Enabled = False
         Me.BtnNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnNew.Location = New System.Drawing.Point(234, 85)
         Me.BtnNew.Margin = New System.Windows.Forms.Padding(4)
@@ -108,7 +110,6 @@ Partial Class Form1
         '
         Me.ListProduit.FormattingEnabled = True
         Me.ListProduit.ItemHeight = 16
-        Me.ListProduit.Items.AddRange(New Object() {"liste 1", "liste 2", "liste 3"})
         Me.ListProduit.Location = New System.Drawing.Point(12, 197)
         Me.ListProduit.Name = "ListProduit"
         Me.ListProduit.Size = New System.Drawing.Size(180, 244)
@@ -129,11 +130,11 @@ Partial Class Form1
         '
         Me.Button1.BackColor = System.Drawing.Color.Magenta
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
-        Me.Button1.Location = New System.Drawing.Point(59, 85)
+        Me.Button1.Location = New System.Drawing.Point(15, 85)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(133, 73)
+        Me.Button1.Size = New System.Drawing.Size(177, 38)
         Me.Button1.TabIndex = 10
-        Me.Button1.Text = "Log in"
+        Me.Button1.Text = "Connexion"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'PseudoUser
@@ -152,12 +153,25 @@ Partial Class Form1
         Me.LblPseudo.Size = New System.Drawing.Size(0, 17)
         Me.LblPseudo.TabIndex = 12
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Magenta
+        Me.Button2.Enabled = False
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Button2.Location = New System.Drawing.Point(15, 129)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(177, 38)
+        Me.Button2.TabIndex = 13
+        Me.Button2.Text = "Deconnexion"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LblPseudo)
         Me.Controls.Add(Me.PseudoUser)
         Me.Controls.Add(Me.Button1)
@@ -189,4 +203,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents PseudoUser As Label
     Friend WithEvents LblPseudo As Label
+    Friend WithEvents Button2 As Button
 End Class
