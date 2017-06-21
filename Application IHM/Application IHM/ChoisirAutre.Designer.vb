@@ -45,9 +45,6 @@ Partial Class ChoisirAutre
         Me.Button5 = New System.Windows.Forms.Button()
         Me.LblPrixgum = New System.Windows.Forms.Label()
         Me.LblPrixPorteClef = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.LblPrixPoussette = New System.Windows.Forms.Label()
         Me.LblPrixGob = New System.Windows.Forms.Label()
@@ -55,6 +52,9 @@ Partial Class ChoisirAutre
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.ListBox4 = New System.Windows.Forms.ListBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -282,45 +282,15 @@ Partial Class ChoisirAutre
         Me.LblPrixPorteClef.TabIndex = 110
         Me.LblPrixPorteClef.Text = "3"
         '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(149, 271)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(49, 13)
-        Me.Label14.TabIndex = 109
-        Me.Label14.Text = "euro/kilo"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(140, 179)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(49, 13)
-        Me.Label13.TabIndex = 108
-        Me.Label13.Text = "euro/kilo"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(140, 226)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(49, 13)
-        Me.Label11.TabIndex = 107
-        Me.Label11.Text = "euro/kilo"
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(140, 127)
+        Me.Label9.Location = New System.Drawing.Point(149, 125)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(49, 13)
+        Me.Label9.Size = New System.Drawing.Size(28, 13)
         Me.Label9.TabIndex = 106
-        Me.Label9.Text = "euro/kilo"
+        Me.Label9.Text = "euro"
         '
         'LblPrixPoussette
         '
@@ -382,12 +352,45 @@ Partial Class ChoisirAutre
         Me.ListBox4.TabIndex = 116
         Me.ListBox4.Visible = False
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(149, 179)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(28, 13)
+        Me.Label6.TabIndex = 117
+        Me.Label6.Text = "euro"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(149, 223)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(28, 13)
+        Me.Label7.TabIndex = 118
+        Me.Label7.Text = "euro"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(149, 272)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(28, 13)
+        Me.Label8.TabIndex = 119
+        Me.Label8.Text = "euro"
+        '
         'ChoisirAutre
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(284, 411)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.ListBox4)
         Me.Controls.Add(Me.ListBox3)
         Me.Controls.Add(Me.ListBox2)
@@ -395,9 +398,6 @@ Partial Class ChoisirAutre
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.LblPrixgum)
         Me.Controls.Add(Me.LblPrixPorteClef)
-        Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.LblPrixPoussette)
         Me.Controls.Add(Me.LblPrixGob)
@@ -450,9 +450,6 @@ Partial Class ChoisirAutre
     Friend WithEvents Button5 As Button
     Friend WithEvents LblPrixgum As Label
     Friend WithEvents LblPrixPorteClef As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label11 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents LblPrixPoussette As Label
     Friend WithEvents LblPrixGob As Label
@@ -460,4 +457,7 @@ Partial Class ChoisirAutre
     Friend WithEvents ListBox2 As ListBox
     Friend WithEvents ListBox3 As ListBox
     Friend WithEvents ListBox4 As ListBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
 End Class

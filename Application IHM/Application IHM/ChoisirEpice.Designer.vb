@@ -44,9 +44,6 @@ Partial Class ChoisirEpice
         Me.BtnRetour = New System.Windows.Forms.Button()
         Me.LblPrixOrigan = New System.Windows.Forms.Label()
         Me.LblPrixPoivreN = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.LblPrixPoivreB = New System.Windows.Forms.Label()
         Me.LblPrixCannelle = New System.Windows.Forms.Label()
@@ -55,6 +52,9 @@ Partial Class ChoisirEpice
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.ListBox4 = New System.Windows.Forms.ListBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -245,7 +245,7 @@ Partial Class ChoisirEpice
         'BtnRetour
         '
         Me.BtnRetour.Location = New System.Drawing.Point(11, 56)
-        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnRetour.Name = "BtnRetour"
         Me.BtnRetour.Size = New System.Drawing.Size(56, 19)
         Me.BtnRetour.TabIndex = 73
@@ -272,45 +272,15 @@ Partial Class ChoisirEpice
         Me.LblPrixPoivreN.TabIndex = 80
         Me.LblPrixPoivreN.Text = "3"
         '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(140, 265)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(49, 13)
-        Me.Label14.TabIndex = 79
-        Me.Label14.Text = "euro/kilo"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(128, 168)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(49, 13)
-        Me.Label13.TabIndex = 78
-        Me.Label13.Text = "euro/kilo"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(128, 222)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(49, 13)
-        Me.Label11.TabIndex = 77
-        Me.Label11.Text = "euro/kilo"
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(128, 127)
+        Me.Label9.Location = New System.Drawing.Point(149, 127)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(49, 13)
+        Me.Label9.Size = New System.Drawing.Size(28, 13)
         Me.Label9.TabIndex = 76
-        Me.Label9.Text = "euro/kilo"
+        Me.Label9.Text = "euro"
         '
         'LblPrixPoivreB
         '
@@ -335,7 +305,7 @@ Partial Class ChoisirEpice
         'Button5
         '
         Me.Button5.Location = New System.Drawing.Point(110, 323)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(77, 27)
         Me.Button5.TabIndex = 82
@@ -382,11 +352,44 @@ Partial Class ChoisirEpice
         Me.ListBox4.TabIndex = 117
         Me.ListBox4.Visible = False
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(149, 167)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(28, 13)
+        Me.Label6.TabIndex = 118
+        Me.Label6.Text = "euro"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(149, 222)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(28, 13)
+        Me.Label7.TabIndex = 119
+        Me.Label7.Text = "euro"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(149, 261)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(28, 13)
+        Me.Label8.TabIndex = 120
+        Me.Label8.Text = "euro"
+        '
         'ChoisirEpice
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 411)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.ListBox4)
         Me.Controls.Add(Me.ListBox3)
         Me.Controls.Add(Me.ListBox2)
@@ -394,9 +397,6 @@ Partial Class ChoisirEpice
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.LblPrixOrigan)
         Me.Controls.Add(Me.LblPrixPoivreN)
-        Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.LblPrixPoivreB)
         Me.Controls.Add(Me.LblPrixCannelle)
@@ -448,9 +448,6 @@ Partial Class ChoisirEpice
     Friend WithEvents BtnRetour As Button
     Friend WithEvents LblPrixOrigan As Label
     Friend WithEvents LblPrixPoivreN As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label11 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents LblPrixPoivreB As Label
     Friend WithEvents LblPrixCannelle As Label
@@ -459,4 +456,7 @@ Partial Class ChoisirEpice
     Friend WithEvents ListBox2 As ListBox
     Friend WithEvents ListBox3 As ListBox
     Friend WithEvents ListBox4 As ListBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
 End Class
