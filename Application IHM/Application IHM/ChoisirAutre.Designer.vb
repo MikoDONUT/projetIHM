@@ -245,7 +245,7 @@ Partial Class ChoisirAutre
         'BtnRetour
         '
         Me.BtnRetour.Location = New System.Drawing.Point(11, 56)
-        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnRetour.Name = "BtnRetour"
         Me.BtnRetour.Size = New System.Drawing.Size(56, 19)
         Me.BtnRetour.TabIndex = 94
@@ -255,7 +255,7 @@ Partial Class ChoisirAutre
         'Button5
         '
         Me.Button5.Location = New System.Drawing.Point(122, 329)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(77, 27)
         Me.Button5.TabIndex = 112

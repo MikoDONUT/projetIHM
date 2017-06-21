@@ -246,7 +246,7 @@ Partial Class ChoisirProduitDuMonde
         '
         Me.BtnRetour.Cursor = System.Windows.Forms.Cursors.Default
         Me.BtnRetour.Location = New System.Drawing.Point(11, 94)
-        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnRetour.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnRetour.Name = "BtnRetour"
         Me.BtnRetour.Size = New System.Drawing.Size(56, 19)
         Me.BtnRetour.TabIndex = 94
@@ -256,7 +256,7 @@ Partial Class ChoisirProduitDuMonde
         'Button5
         '
         Me.Button5.Location = New System.Drawing.Point(119, 324)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(77, 27)
         Me.Button5.TabIndex = 103
@@ -367,7 +367,7 @@ Partial Class ChoisirProduitDuMonde
         '
         Me.ListBox3.FormattingEnabled = True
         Me.ListBox3.Items.AddRange(New Object() {"Poids : 60g piéce", "Marque : Pinasol", "Pays : Espagne", "Bio : OUI"})
-        Me.ListBox3.Location = New System.Drawing.Point(12, 254)
+        Me.ListBox3.Location = New System.Drawing.Point(13, 254)
         Me.ListBox3.Name = "ListBox3"
         Me.ListBox3.Size = New System.Drawing.Size(93, 56)
         Me.ListBox3.TabIndex = 106
@@ -381,6 +381,7 @@ Partial Class ChoisirProduitDuMonde
         Me.ListBox4.Name = "ListBox4"
         Me.ListBox4.Size = New System.Drawing.Size(93, 56)
         Me.ListBox4.TabIndex = 107
+        Me.ListBox4.Visible = False
         '
         'ChoisirProduitDuMonde
         '

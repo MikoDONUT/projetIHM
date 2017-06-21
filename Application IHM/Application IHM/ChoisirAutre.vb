@@ -52,18 +52,18 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If ListBox2.Visible = True Then
-            ListBox2.Visible = False
-        Else
-            ListBox2.Visible = True
-        End If
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If ListBox3.Visible = True Then
             ListBox3.Visible = False
         Else
             ListBox3.Visible = True
+        End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If ListBox2.Visible = True Then
+            ListBox2.Visible = False
+        Else
+            ListBox2.Visible = True
         End If
     End Sub
 
