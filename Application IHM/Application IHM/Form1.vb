@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports Application_IHM
+
+Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -90,4 +92,8 @@
         LblPseudo.Text = ""
         MsgBox("Vous avez ete deconnecter")
     End Sub
+
+    Public Shared Widening Operator CType(v As FormOption) As Form1
+        Throw New NotImplementedException()
+    End Operator
 End Class
