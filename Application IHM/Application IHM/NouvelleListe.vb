@@ -11,35 +11,62 @@
         Label3.Text = priceTot.ToString
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        ChoisirViande.Show()
-        'modifier le label de viande a la valeur du text input
-        ChoisirViande.Label1.Text = BoxNewList.Text
+        If FormOption.IsNotEco() = False Then
+            ChoisirViande.Show()
+            'modifier le label de viande a la valeur du text input
+            ChoisirViande.Label1.Text = BoxNewList.Text
+
+        ElseIf FormOption.IsEco() = True Then
+            FormOption.Show()
+        End If
+
 
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles BtnSurgelé.Click
-        ChoisirSurgelés.Show()
-        'modifier le label de surgeles a la valeur du text input
-        ChoisirSurgelés.Label1.Text = BoxNewList.Text
+        'Verifie si l'option eco est activer
+        If FormOption.Eco = False Then
+            ChoisirSurgelés.Show()
+            'modifier le label de surgeles a la valeur du text input
+            ChoisirSurgelés.Label1.Text = BoxNewList.Text
+
+        Else
+
+        End If
+
+
+
 
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        ChoisirFruitEtLegumes.Show()
-        'modifier le label de fruit et legume a la valeur du text input
-        ChoisirFruitEtLegumes.Label1.Text = BoxNewList.Text
+        'Verifie si l'option eco est activer
+        If FormOption.Eco = False Then
+            ChoisirFruitEtLegumes.Show()
+            'modifier le label de fruit et legume a la valeur du text input
+            ChoisirFruitEtLegumes.Label1.Text = BoxNewList.Text
+        End If
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        ChoisirEpice.Show()
-        'modifier le label de Epice a la valeur du text input
-        ChoisirEpice.Label1.Text = BoxNewList.Text
+        'Verifie si l'option eco est activer
+        If FormOption.Eco = False Then
+            ChoisirEpice.Show()
+            'modifier le label de Epice a la valeur du text input
+            ChoisirEpice.Label1.Text = BoxNewList.Text
+        End If
+
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        ChoisirProduitDuMonde.Show()
-        'modifier le label de Produit du monde a la valeur du text input
-        ChoisirProduitDuMonde.Label1.Text = BoxNewList.Text
+        'Verifie si l'option eco est activer
+        If FormOption.Eco = False Then
+            ChoisirProduitDuMonde.Show()
+            'modifier le label de Produit du monde a la valeur du text input
+            ChoisirProduitDuMonde.Label1.Text = BoxNewList.Text
+        End If
+
     End Sub
 
     Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click

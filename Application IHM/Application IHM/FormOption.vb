@@ -1,8 +1,31 @@
 ﻿Public Class FormOption
+    Public Eco As Boolean = True
+
+    Public Sub InvEco()
+        Eco = Not Eco
+    End Sub
+    Public Function IsEco() As Boolean
+        If Eco = False Then
+            InvEco()
+            Return Eco
+        Else
+            Return Eco
+        End If
+    End Function
+
+    Public Function IsNotEco() As Boolean
+        If Eco = True Then
+            InvEco()
+            Return Eco
+        Else
+            Return Eco
+        End If
+        Return Eco
+    End Function
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Dispose()
     End Sub
-
 
     Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs)
 
@@ -13,7 +36,7 @@
     End Sub
 
     Private Sub BtnAppliquer_Click(sender As Object, e As EventArgs) Handles BtnAppliquer.Click
-        'Pour daltonien
+        'Pour mode daltonien
         If RadioModeDaltonien.Checked = True Then
             'changer la couleur des form
             Me.BackColor = System.Drawing.Color.DarkGreen
@@ -58,6 +81,11 @@
         End If
 
 
+        'Pour mode economique
+        If CheckBoxEco.Checked = True Then
+            IsEco()
+        End If
+
     End Sub
 
     Private Sub BtnQuitter_Click(sender As Object, e As EventArgs) Handles BtnQuitter.Click
@@ -65,7 +93,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        'Pour retablir
+        'Pour retablir par defaut
         Me.BackColor = System.Drawing.Color.White
         Form1.BackColor = System.Drawing.Color.White
         ChoisirAutre.BackColor = System.Drawing.Color.White
@@ -88,11 +116,20 @@
                 ctl.ForeColor = Color.Black
             End If
         Next ctl
+        'Retablis les checkbox a false
         If RadioModeNuit.Checked = True Then
             RadioModeNuit.Checked = False
         End If
         If RadioModeDaltonien.Checked = True Then
             RadioModeDaltonien.Checked = False
         End If
+        If CheckBoxEco.Checked = True And IsEco() = True Then
+            IsNotEco()
+            CheckBoxEco.Checked = False
+        End If
+    End Sub
+
+    Private Sub CheckBoxEco_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxEco.CheckedChanged
+
     End Sub
 End Class

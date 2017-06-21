@@ -23,44 +23,46 @@ Partial Class CreeId
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TextBoxPseudo = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.BoxAge = New System.Windows.Forms.TextBox()
+        Me.BoxPrenom = New System.Windows.Forms.TextBox()
+        Me.BoxNom = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBoxMdp = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'TextBoxPseudo
         '
-        Me.TextBoxPseudo.Location = New System.Drawing.Point(60, 110)
+        Me.TextBoxPseudo.Location = New System.Drawing.Point(60, 89)
         Me.TextBoxPseudo.Name = "TextBoxPseudo"
         Me.TextBoxPseudo.Size = New System.Drawing.Size(100, 22)
         Me.TextBoxPseudo.TabIndex = 0
         '
-        'TextBox3
+        'BoxAge
         '
-        Me.TextBox3.Location = New System.Drawing.Point(60, 254)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 2
+        Me.BoxAge.Location = New System.Drawing.Point(60, 254)
+        Me.BoxAge.Name = "BoxAge"
+        Me.BoxAge.Size = New System.Drawing.Size(100, 22)
+        Me.BoxAge.TabIndex = 2
         '
-        'TextBox4
+        'BoxPrenom
         '
-        Me.TextBox4.Location = New System.Drawing.Point(60, 209)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox4.TabIndex = 3
+        Me.BoxPrenom.Location = New System.Drawing.Point(60, 209)
+        Me.BoxPrenom.Name = "BoxPrenom"
+        Me.BoxPrenom.Size = New System.Drawing.Size(100, 22)
+        Me.BoxPrenom.TabIndex = 3
         '
-        'TextBox5
+        'BoxNom
         '
-        Me.TextBox5.Location = New System.Drawing.Point(60, 160)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox5.TabIndex = 4
+        Me.BoxNom.Location = New System.Drawing.Point(60, 163)
+        Me.BoxNom.Name = "BoxNom"
+        Me.BoxNom.Size = New System.Drawing.Size(100, 22)
+        Me.BoxNom.TabIndex = 4
         '
         'Button1
         '
@@ -83,7 +85,7 @@ Partial Class CreeId
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(179, 110)
+        Me.Label1.Location = New System.Drawing.Point(180, 92)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 17)
         Me.Label1.TabIndex = 7
@@ -116,20 +118,39 @@ Partial Class CreeId
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Age"
         '
+        'TextBoxMdp
+        '
+        Me.TextBoxMdp.Location = New System.Drawing.Point(60, 123)
+        Me.TextBoxMdp.Name = "TextBoxMdp"
+        Me.TextBoxMdp.Size = New System.Drawing.Size(100, 22)
+        Me.TextBoxMdp.TabIndex = 11
+        Me.TextBoxMdp.UseSystemPasswordChar = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(182, 127)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(93, 17)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Mot de passe"
+        '
         'CreeId
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 403)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.TextBoxMdp)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.BoxNom)
+        Me.Controls.Add(Me.BoxPrenom)
+        Me.Controls.Add(Me.BoxAge)
         Me.Controls.Add(Me.TextBoxPseudo)
         Me.Name = "CreeId"
         Me.Text = "CreeId"
@@ -139,13 +160,15 @@ Partial Class CreeId
     End Sub
 
     Friend WithEvents TextBoxPseudo As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents BoxAge As TextBox
+    Friend WithEvents BoxPrenom As TextBox
+    Friend WithEvents BoxNom As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents TextBoxMdp As TextBox
+    Friend WithEvents Label5 As Label
 End Class

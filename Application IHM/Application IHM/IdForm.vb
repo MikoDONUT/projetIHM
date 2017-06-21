@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        'boutton retour
         Me.Dispose()
     End Sub
 
@@ -15,7 +16,18 @@
             'Si les text box sont correctement remplis
         Else
             MsgBox("Bienvenue " & PseudoBox.Text)
-            'Administrie le pseudo au label de la form de depart
+
+            'Changement du titre de la form de depart
+            Form1.Label1.Text = "Mes listes"
+
+            'Desactiver le boutton login de la form d'acceuil
+            Form1.Button1.Enabled = False
+
+            'Activer le boutton logout et nouvelle liste de la form d'acceuil
+            Form1.Button2.Enabled = True
+            Form1.BtnNew.Enabled = True
+
+            'Administrie le pseudo au label de la form d'acceuil
             Form1.LblPseudo.Text = PseudoBox.Text
             Me.Dispose()
             SeConnecter.Dispose()

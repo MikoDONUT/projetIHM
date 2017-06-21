@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports Application_IHM
+
+Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -74,4 +76,24 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         SeConnecter.Show()
     End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        'Desactive le boutton nouvelle liste
+        BtnNew.Enabled = False
+        'Desactive le boutton logout
+        Button2.Enabled = False
+
+        'Active le boutton login
+        Button1.Enabled = True
+
+        'Vide la liste box
+        ListProduit.Items.Clear()
+        'Retire le pseudo du user 
+        LblPseudo.Text = ""
+        MsgBox("Vous avez ete deconnecter")
+    End Sub
+
+    Public Shared Widening Operator CType(v As FormOption) As Form1
+        Throw New NotImplementedException()
+    End Operator
 End Class
