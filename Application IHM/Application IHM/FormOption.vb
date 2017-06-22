@@ -1,27 +1,6 @@
 ﻿Public Class FormOption
-    Public Eco As Boolean = True
 
-    Public Sub InvEco()
-        Eco = Not Eco
-    End Sub
-    Public Function IsEco() As Boolean
-        If Eco = False Then
-            InvEco()
-            Return Eco
-        Else
-            Return Eco
-        End If
-    End Function
 
-    Public Function IsNotEco() As Boolean
-        If Eco = True Then
-            InvEco()
-            Return Eco
-        Else
-            Return Eco
-        End If
-        Return Eco
-    End Function
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Dispose()
@@ -35,7 +14,7 @@
 
     End Sub
 
-    Private Sub BtnAppliquer_Click(sender As Object, e As EventArgs) Handles BtnAppliquer.Click
+    Public Sub BtnAppliquer_Click(sender As Object, e As EventArgs) Handles BtnAppliquer.Click
         'Pour mode daltonien
         If RadioModeDaltonien.Checked = True Then
             'changer la couleur des form
@@ -83,8 +62,9 @@
 
         'Pour mode economique
         If CheckBoxEco.Checked = True Then
-            IsEco()
+            Form1.Label2.Text = "Economique"
         End If
+
 
     End Sub
 
@@ -104,7 +84,6 @@
         ChoisirViande.BackColor = System.Drawing.Color.White
         NouvelleListe.BackColor = System.Drawing.Color.White
         share.BackColor = System.Drawing.Color.White
-
         RadioModeNuit.ForeColor = Color.Black
         RadioModeDaltonien.ForeColor = Color.Black
 
@@ -123,10 +102,10 @@
         If RadioModeDaltonien.Checked = True Then
             RadioModeDaltonien.Checked = False
         End If
-        If CheckBoxEco.Checked = True And IsEco() = True Then
-            IsNotEco()
-            CheckBoxEco.Checked = False
-        End If
+
+        'Retablis le mode non economique
+        Form1.Label2.Text = ""
+
     End Sub
 
     Private Sub CheckBoxEco_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxEco.CheckedChanged

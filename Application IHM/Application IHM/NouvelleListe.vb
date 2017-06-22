@@ -11,12 +11,15 @@
         Label3.Text = priceTot.ToString
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If FormOption.IsNotEco() = False Then
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
             ChoisirViande.Show()
+
             'modifier le label de viande a la valeur du text input
             ChoisirViande.Label1.Text = BoxNewList.Text
 
-        ElseIf FormOption.IsEco() = True Then
+        ElseIf Form1.Label2.Text = "Economique" Then
+            IsEco.Text = "Economique"
             FormOption.Show()
         End If
 
@@ -25,12 +28,15 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles BtnSurgelé.Click
         'Verifie si l'option eco est activer
-        If FormOption.Eco = False Then
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
+
             ChoisirSurgelés.Show()
             'modifier le label de surgeles a la valeur du text input
             ChoisirSurgelés.Label1.Text = BoxNewList.Text
 
-        Else
+        ElseIf Form1.Label2.Text = "Economique" Then
+            IsEco.Text = "Economique"
 
         End If
 
@@ -41,30 +47,42 @@
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         'Verifie si l'option eco est activer
-        If FormOption.Eco = False Then
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
             ChoisirFruitEtLegumes.Show()
             'modifier le label de fruit et legume a la valeur du text input
             ChoisirFruitEtLegumes.Label1.Text = BoxNewList.Text
+
+        ElseIf Form1.Label2.Text = "Economique" Then
+            IsEco.Text = "Economique"
         End If
 
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         'Verifie si l'option eco est activer
-        If FormOption.Eco = False Then
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
             ChoisirEpice.Show()
             'modifier le label de Epice a la valeur du text input
             ChoisirEpice.Label1.Text = BoxNewList.Text
+
+        ElseIf Form1.Label2.Text = "Economique" Then
+            IsEco.Text = "Economique"
         End If
 
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         'Verifie si l'option eco est activer
-        If FormOption.Eco = False Then
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
             ChoisirProduitDuMonde.Show()
             'modifier le label de Produit du monde a la valeur du text input
             ChoisirProduitDuMonde.Label1.Text = BoxNewList.Text
+
+        ElseIf Form1.Label2.Text = "Economique" Then
+            IsEco.Text = "Economique"
         End If
 
     End Sub

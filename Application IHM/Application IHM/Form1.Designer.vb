@@ -34,6 +34,7 @@ Partial Class Form1
         Me.PseudoUser = New System.Windows.Forms.Label()
         Me.LblPseudo = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -165,12 +166,21 @@ Partial Class Form1
         Me.Button2.Text = "Deconnexion"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(248, 62)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(0, 17)
+        Me.Label2.TabIndex = 14
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LblPseudo)
         Me.Controls.Add(Me.PseudoUser)
@@ -204,4 +214,5 @@ Partial Class Form1
     Friend WithEvents PseudoUser As Label
     Friend WithEvents LblPseudo As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label2 As Label
 End Class

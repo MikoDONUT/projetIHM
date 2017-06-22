@@ -37,6 +37,7 @@ Partial Class NouvelleListe
         Me.BoxNewList = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.IsEco = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -208,11 +209,20 @@ Partial Class NouvelleListe
         Me.Button3.Text = "Scanner un article"
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'IsEco
+        '
+        Me.IsEco.AutoSize = True
+        Me.IsEco.Location = New System.Drawing.Point(296, 100)
+        Me.IsEco.Name = "IsEco"
+        Me.IsEco.Size = New System.Drawing.Size(0, 17)
+        Me.IsEco.TabIndex = 12
+        '
         'NouvelleListe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.IsEco)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.BtnRetour)
         Me.Controls.Add(Me.Button7)
@@ -232,6 +242,7 @@ Partial Class NouvelleListe
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Panel2 As Panel
@@ -249,4 +260,5 @@ Partial Class NouvelleListe
     Friend WithEvents BoxNewList As TextBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button3 As Button
+    Friend WithEvents IsEco As Label
 End Class
