@@ -53,34 +53,6 @@
 
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
-
-    End Sub
-
-    Private Sub LblNomAgneau_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
-
-    Private Sub LblPrixAgneaux_Click(sender As Object, e As EventArgs) Handles LblPrixAgneaux.Click
-
-    End Sub
-
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
-
-    End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If ListBox1.Visible = True Then
             ListBox1.Visible = False
@@ -95,18 +67,6 @@
         Else
             ListBox2.Visible = True
         End If
-    End Sub
-
-    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox5.CheckedChanged
-
-    End Sub
-
-    Private Sub Label21_Click(sender As Object, e As EventArgs) Handles LblPrixCochon.Click
-
-    End Sub
-
-    Private Sub ChoisirViande_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click

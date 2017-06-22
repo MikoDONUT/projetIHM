@@ -20,7 +20,7 @@
 
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
-            FormOption.Show()
+            EcoChoisirViande.Show()
         End If
 
 

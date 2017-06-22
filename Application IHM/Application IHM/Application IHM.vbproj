@@ -114,6 +114,18 @@
     <Compile Include="CreeId.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="EcoChoisirViande.Designer.vb">
+      <DependentUpon>EcoChoisirViande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EcoChoisirViande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSurgele.Designer.vb">
+      <DependentUpon>EcoSurgele.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EcoSurgele.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +224,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CreeId.resx">
       <DependentUpon>CreeId.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EcoChoisirViande.resx">
+      <DependentUpon>EcoChoisirViande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EcoSurgele.resx">
+      <DependentUpon>EcoSurgele.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
