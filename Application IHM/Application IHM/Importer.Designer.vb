@@ -73,7 +73,7 @@ Partial Class Importer
         Me.ListBox1.Items.AddRange(New Object() {"ami 1", "ami 2", "ami 3", "ami 4"})
         Me.ListBox1.Location = New System.Drawing.Point(40, 117)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(120, 84)
+        Me.ListBox1.Size = New System.Drawing.Size(161, 84)
         Me.ListBox1.TabIndex = 4
         '
         'ListBox2
@@ -82,7 +82,7 @@ Partial Class Importer
         Me.ListBox2.ItemHeight = 16
         Me.ListBox2.Location = New System.Drawing.Point(40, 321)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(120, 84)
+        Me.ListBox2.Size = New System.Drawing.Size(161, 84)
         Me.ListBox2.TabIndex = 5
         '
         'Importer

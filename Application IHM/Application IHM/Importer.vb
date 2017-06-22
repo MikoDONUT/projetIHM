@@ -8,20 +8,20 @@
 
         If ListBox1.SelectedItem = "ami 2" Then
             ListBox2.Items.Clear()
-            ListBox2.Items.Add("Liste repas de famille")
-            ListBox2.Items.Add("gouter en cours")
+            ListBox2.Items.Add("liste pique nique")
+            ListBox2.Items.Add("gouter plage")
         End If
 
         If ListBox1.SelectedItem = "ami 3" Then
             ListBox2.Items.Clear()
-            ListBox2.Items.Add("Liste repas de famille")
-            ListBox2.Items.Add("gouter en cours")
+            ListBox2.Items.Add("fete anniversaire")
+            ListBox2.Items.Add("liste soiree foot")
         End If
 
         If ListBox1.SelectedItem = "ami 4" Then
             ListBox2.Items.Clear()
-            ListBox2.Items.Add("Liste repas de famille")
-            ListBox2.Items.Add("gouter en cours")
+            ListBox2.Items.Add("liste anniversaire maman")
+            ListBox2.Items.Add("repas d'enterement de vie de garcon")
         End If
     End Sub
 
