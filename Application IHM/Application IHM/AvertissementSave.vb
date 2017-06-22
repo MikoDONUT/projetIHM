@@ -1,7 +1,9 @@
 ﻿Public Class AvertissementSave
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         NouvelleListe.btnSaveClicked = True
+        ModifierListe.btnSaveClicked = True
         Form1.ListProduit.Items.Add(NouvelleListe.BoxNewList.Text)
+
         MsgBox("Votre Liste a ete sauvegarder")
         Me.Close()
         NouvelleListe.Close()

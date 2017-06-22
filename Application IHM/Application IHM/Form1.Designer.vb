@@ -37,7 +37,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ButtonFinish = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.BtnModif = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,6 +45,7 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Btnoption)
         Me.Panel1.Location = New System.Drawing.Point(0, 1)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
@@ -103,7 +104,7 @@ Partial Class Form1
         '
         'Btnoption
         '
-        Me.Btnoption.Location = New System.Drawing.Point(304, 56)
+        Me.Btnoption.Location = New System.Drawing.Point(301, 25)
         Me.Btnoption.Name = "Btnoption"
         Me.Btnoption.Size = New System.Drawing.Size(75, 30)
         Me.Btnoption.TabIndex = 7
@@ -180,6 +181,7 @@ Partial Class Form1
         'ButtonFinish
         '
         Me.ButtonFinish.BackColor = System.Drawing.Color.Yellow
+        Me.ButtonFinish.Enabled = False
         Me.ButtonFinish.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
         Me.ButtonFinish.Location = New System.Drawing.Point(12, 447)
         Me.ButtonFinish.Name = "ButtonFinish"
@@ -199,14 +201,16 @@ Partial Class Form1
         Me.Button3.Text = "Importer "
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button4
+        'BtnModif
         '
-        Me.Button4.Location = New System.Drawing.Point(235, 165)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(132, 52)
-        Me.Button4.TabIndex = 17
-        Me.Button4.Text = "Modifier"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.BtnModif.Enabled = False
+        Me.BtnModif.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.BtnModif.Location = New System.Drawing.Point(235, 165)
+        Me.BtnModif.Name = "BtnModif"
+        Me.BtnModif.Size = New System.Drawing.Size(132, 52)
+        Me.BtnModif.TabIndex = 17
+        Me.BtnModif.Text = "Modifier"
+        Me.BtnModif.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -214,7 +218,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.BtnModif)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.ButtonFinish)
         Me.Controls.Add(Me.Label2)
@@ -223,7 +227,6 @@ Partial Class Form1
         Me.Controls.Add(Me.PseudoUser)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.BtnVoir)
-        Me.Controls.Add(Me.Btnoption)
         Me.Controls.Add(Me.BtnRm)
         Me.Controls.Add(Me.BtnShare)
         Me.Controls.Add(Me.BtnNew)
@@ -254,5 +257,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents ButtonFinish As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents BtnModif As Button
 End Class

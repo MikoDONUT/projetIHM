@@ -40,6 +40,13 @@ Public Class Form1
             BtnVoir.Enabled = True
         End If
 
+        'Btn Modifier
+        If ListProduit.SelectedItem = "" Then
+            BtnModif.Enabled = False
+        Else
+            BtnModif.Enabled = True
+        End If
+
 
         'Btn finish
         If ListProduit.SelectedItem = "" Then
@@ -90,9 +97,7 @@ Public Class Form1
         Throw New NotImplementedException()
     End Operator
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
     Private Sub ButtonFinish_Click(sender As Object, e As EventArgs) Handles ButtonFinish.Click
         Finish.Show()
@@ -102,8 +107,12 @@ Public Class Form1
         Importer.Show()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles BtnModif.Click
         ModifierListe.Show()
         ModifierListe.Label1.Text = ListProduit.SelectedItem
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
