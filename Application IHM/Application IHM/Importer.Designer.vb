@@ -34,45 +34,49 @@ Partial Class Importer
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(34, 36)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label1.Location = New System.Drawing.Point(-4, 56)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(249, 17)
+        Me.Label1.Size = New System.Drawing.Size(380, 26)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Importer des listes partager avec vous"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(34, 82)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label2.Location = New System.Drawing.Point(35, 119)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(56, 17)
+        Me.Label2.Size = New System.Drawing.Size(87, 26)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Contact"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(37, 286)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label3.Location = New System.Drawing.Point(35, 292)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(164, 17)
+        Me.Label3.Size = New System.Drawing.Size(248, 26)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Liste partager avec vous"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(144, 458)
+        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button1.Location = New System.Drawing.Point(144, 452)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 33)
+        Me.Button1.Size = New System.Drawing.Size(75, 39)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Importer"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
         Me.ListBox1.Items.AddRange(New Object() {"ami 1", "ami 2", "ami 3", "ami 4"})
-        Me.ListBox1.Location = New System.Drawing.Point(40, 117)
+        Me.ListBox1.Location = New System.Drawing.Point(40, 148)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(161, 84)
         Me.ListBox1.TabIndex = 4
@@ -88,12 +92,13 @@ Partial Class Importer
         '
         'BtnRetour
         '
-        Me.BtnRetour.Location = New System.Drawing.Point(1, -4)
+        Me.BtnRetour.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BtnRetour.Location = New System.Drawing.Point(1, 12)
         Me.BtnRetour.Name = "BtnRetour"
         Me.BtnRetour.Size = New System.Drawing.Size(110, 37)
         Me.BtnRetour.TabIndex = 11
         Me.BtnRetour.Text = "Retour"
-        Me.BtnRetour.UseVisualStyleBackColor = True
+        Me.BtnRetour.UseVisualStyleBackColor = False
         '
         'Importer
         '

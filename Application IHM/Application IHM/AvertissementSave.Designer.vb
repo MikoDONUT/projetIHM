@@ -30,6 +30,7 @@ Partial Class AvertissementSave
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
         Me.Label1.Location = New System.Drawing.Point(12, 26)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(319, 17)
@@ -38,21 +39,23 @@ Partial Class AvertissementSave
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button1.Location = New System.Drawing.Point(61, 98)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(109, 43)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Sauvegarder"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button2.Location = New System.Drawing.Point(199, 98)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(109, 43)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Quitter sans sauvegarder"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'AvertissementSave
         '

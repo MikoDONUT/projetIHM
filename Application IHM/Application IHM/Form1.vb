@@ -3,8 +3,6 @@
 Public Class Form1
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles BtnShare.Click
-
-
         share.Show()
         share.Label2.Text = ListProduit.SelectedItem
     End Sub
@@ -97,9 +95,8 @@ Public Class Form1
         Throw New NotImplementedException()
     End Operator
 
-
-
     Private Sub ButtonFinish_Click(sender As Object, e As EventArgs) Handles ButtonFinish.Click
+        Finish.Label4.Text = ListProduit.SelectedItem
         Finish.Show()
     End Sub
 
