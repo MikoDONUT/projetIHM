@@ -7,7 +7,6 @@
         ' Loader.DisplayPercentage(1.5)
         PriceArticle = random.Next(5, 100)
 
-
         System.Threading.Thread.Sleep(1000)
         MsgBox("Votre article coute" & PriceArticle)
     End Sub

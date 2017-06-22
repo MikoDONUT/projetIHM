@@ -37,6 +37,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ButtonFinish = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -92,10 +93,10 @@ Partial Class Form1
         Me.BtnRm.BackColor = System.Drawing.Color.Red
         Me.BtnRm.Enabled = False
         Me.BtnRm.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnRm.Location = New System.Drawing.Point(233, 275)
+        Me.BtnRm.Location = New System.Drawing.Point(231, 308)
         Me.BtnRm.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnRm.Name = "BtnRm"
-        Me.BtnRm.Size = New System.Drawing.Size(134, 73)
+        Me.BtnRm.Size = New System.Drawing.Size(134, 52)
         Me.BtnRm.TabIndex = 6
         Me.BtnRm.Text = "Supprimer"
         Me.BtnRm.UseVisualStyleBackColor = False
@@ -122,9 +123,9 @@ Partial Class Form1
         '
         Me.BtnVoir.Enabled = False
         Me.BtnVoir.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnVoir.Location = New System.Drawing.Point(233, 180)
+        Me.BtnVoir.Location = New System.Drawing.Point(234, 232)
         Me.BtnVoir.Name = "BtnVoir"
-        Me.BtnVoir.Size = New System.Drawing.Size(133, 73)
+        Me.BtnVoir.Size = New System.Drawing.Size(133, 52)
         Me.BtnVoir.TabIndex = 9
         Me.BtnVoir.Text = "Detail"
         Me.BtnVoir.UseVisualStyleBackColor = True
@@ -198,12 +199,22 @@ Partial Class Form1
         Me.Button3.Text = "Importer "
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(235, 165)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(132, 52)
+        Me.Button4.TabIndex = 17
+        Me.Button4.Text = "Modifier"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.ButtonFinish)
         Me.Controls.Add(Me.Label2)
@@ -243,4 +254,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents ButtonFinish As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
 End Class
