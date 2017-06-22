@@ -31,6 +31,8 @@ Partial Class FormVoirListe
         Me.Label4 = New System.Windows.Forms.Label()
         Me.LstBoxPartager = New System.Windows.Forms.ListBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.LstQuant = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'BtnRetour
@@ -48,7 +50,7 @@ Partial Class FormVoirListe
         Me.LstBoxProduit.ItemHeight = 16
         Me.LstBoxProduit.Location = New System.Drawing.Point(12, 106)
         Me.LstBoxProduit.Name = "LstBoxProduit"
-        Me.LstBoxProduit.Size = New System.Drawing.Size(244, 84)
+        Me.LstBoxProduit.Size = New System.Drawing.Size(148, 84)
         Me.LstBoxProduit.TabIndex = 1
         '
         'Label1
@@ -70,7 +72,7 @@ Partial Class FormVoirListe
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(42, 196)
+        Me.Button1.Location = New System.Drawing.Point(99, 196)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(170, 32)
         Me.Button1.TabIndex = 4
@@ -113,11 +115,31 @@ Partial Class FormVoirListe
         Me.Button2.Text = "Supprimer partage"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(219, 83)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(62, 17)
+        Me.Label5.TabIndex = 9
+        Me.Label5.Text = "Quantité"
+        '
+        'LstQuant
+        '
+        Me.LstQuant.FormattingEnabled = True
+        Me.LstQuant.ItemHeight = 16
+        Me.LstQuant.Location = New System.Drawing.Point(222, 106)
+        Me.LstQuant.Name = "LstQuant"
+        Me.LstQuant.Size = New System.Drawing.Size(120, 84)
+        Me.LstQuant.TabIndex = 10
+        '
         'FormVoirListe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(282, 403)
+        Me.ClientSize = New System.Drawing.Size(382, 503)
+        Me.Controls.Add(Me.LstQuant)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LstBoxPartager)
         Me.Controls.Add(Me.Label4)
@@ -143,4 +165,6 @@ Partial Class FormVoirListe
     Friend WithEvents Label4 As Label
     Friend WithEvents LstBoxPartager As ListBox
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label5 As Label
+    Friend WithEvents LstQuant As ListBox
 End Class

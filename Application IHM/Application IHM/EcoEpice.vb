@@ -1,37 +1,36 @@
 ﻿Public Class EcoEpice
 
     Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click
-            Me.Dispose()
-        End Sub
+        Me.Dispose()
+    End Sub
 
-        Private Sub ChoisirEpice_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        End Sub
-
-        Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
             Dim priceEpices As New Integer
 
             If CheckBox1.Checked = True Then
-                FormVoirListe.LstBoxProduit.Items.Add(Button2.Text)
+            FormVoirListe.LstBoxProduit.Items.Add(Button2.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox1.SelectedItem.ToString)
 
-                priceEpices += (Convert.ToInt16(LblPrixCannelle.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
+            priceEpices += (Convert.ToInt16(LblPrixCannelle.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
 
                 Label3.Text = priceEpices.ToString
                 NouvelleListe.calcl(priceEpices)
             End If
 
             If CheckBox2.Checked = True Then
-                FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox2.SelectedItem.ToString)
 
-                priceEpices += (Convert.ToInt16(LblPrixPoivreB.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
+            priceEpices += (Convert.ToInt16(LblPrixPoivreB.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
                 Label3.Text = priceEpices.ToString
                 NouvelleListe.calcl(priceEpices)
             End If
 
             If CheckBox3.Checked = True Then
-                FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox3.SelectedItem.ToString)
 
-                priceEpices += (Convert.ToInt16(LblPrixPoivreN.Text) * Convert.ToInt16(ComboBox3.SelectedItem))
+            priceEpices += (Convert.ToInt16(LblPrixPoivreN.Text) * Convert.ToInt16(ComboBox3.SelectedItem))
                 Label3.Text = priceEpices.ToString
                 NouvelleListe.calcl(priceEpices)
             End If
@@ -67,5 +66,7 @@
             End If
         End Sub
 
+    Private Sub EcoEpice_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

@@ -1,17 +1,7 @@
 ﻿Public Class FormOption
 
-
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Dispose()
-    End Sub
-
-    Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs)
-
     End Sub
 
     Public Sub BtnAppliquer_Click(sender As Object, e As EventArgs) Handles BtnAppliquer.Click
@@ -108,7 +98,4 @@
 
     End Sub
 
-    Private Sub CheckBoxEco_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxEco.CheckedChanged
-
-    End Sub
 End Class

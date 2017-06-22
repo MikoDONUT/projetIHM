@@ -1,8 +1,4 @@
 ﻿Public Class IdForm
-    Private Sub MaskedTextBox1_MaskInputRejected(sender As Object, e As MaskInputRejectedEventArgs) Handles mdpBox.MaskInputRejected
-
-    End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         'boutton retour
         Me.Dispose()
@@ -42,4 +38,5 @@
             Form1.ListProduit.Items.Add("Soirees")
         End If
     End Sub
+
 End Class

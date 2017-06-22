@@ -1,27 +1,12 @@
 ﻿Imports Application_IHM
 
 Public Class Form1
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Panel4_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles BtnShare.Click
 
 
         share.Show()
         share.Label2.Text = ListProduit.SelectedItem
-    End Sub
-
-    Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles Label1.Click
-
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles BtnNew.Click
@@ -56,6 +41,12 @@ Public Class Form1
         End If
 
 
+        'Btn finish
+        If ListProduit.SelectedItem = "" Then
+            ButtonFinish.Enabled = False
+        Else
+            ButtonFinish.Enabled = True
+        End If
 
     End Sub
 
@@ -86,6 +77,8 @@ Public Class Form1
         'Active le boutton login
         Button1.Enabled = True
 
+
+
         'Vide la liste box
         ListProduit.Items.Clear()
         'Retire le pseudo du user 
@@ -96,4 +89,12 @@ Public Class Form1
     Public Shared Widening Operator CType(v As FormOption) As Form1
         Throw New NotImplementedException()
     End Operator
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub ButtonFinish_Click(sender As Object, e As EventArgs) Handles ButtonFinish.Click
+        Finish.Show()
+    End Sub
 End Class

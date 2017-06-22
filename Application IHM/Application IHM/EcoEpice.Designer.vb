@@ -49,6 +49,7 @@ Partial Class EcoEpice
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -305,6 +306,7 @@ Partial Class EcoEpice
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(2, -3)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
@@ -334,6 +336,15 @@ Partial Class EcoEpice
         Me.ListBox3.Size = New System.Drawing.Size(124, 68)
         Me.ListBox3.TabIndex = 145
         Me.ListBox3.Visible = False
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(286, 47)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(93, 17)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Economique !"
         '
         'EcoEpice
         '
@@ -400,4 +411,5 @@ Partial Class EcoEpice
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents ListBox3 As ListBox
+    Friend WithEvents Label8 As Label
 End Class

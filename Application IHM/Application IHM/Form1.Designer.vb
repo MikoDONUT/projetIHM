@@ -35,6 +35,7 @@ Partial Class Form1
         Me.LblPseudo = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.ButtonFinish = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -174,12 +175,24 @@ Partial Class Form1
         Me.Label2.Size = New System.Drawing.Size(0, 17)
         Me.Label2.TabIndex = 14
         '
+        'ButtonFinish
+        '
+        Me.ButtonFinish.BackColor = System.Drawing.Color.Yellow
+        Me.ButtonFinish.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.ButtonFinish.Location = New System.Drawing.Point(62, 447)
+        Me.ButtonFinish.Name = "ButtonFinish"
+        Me.ButtonFinish.Size = New System.Drawing.Size(130, 47)
+        Me.ButtonFinish.TabIndex = 15
+        Me.ButtonFinish.Text = "Finir"
+        Me.ButtonFinish.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.ButtonFinish)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.LblPseudo)
@@ -215,4 +228,5 @@ Partial Class Form1
     Friend WithEvents LblPseudo As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents ButtonFinish As Button
 End Class

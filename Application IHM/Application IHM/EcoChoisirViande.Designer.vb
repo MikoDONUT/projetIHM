@@ -43,6 +43,7 @@ Partial Class EcoChoisirViande
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -241,6 +242,7 @@ Partial Class EcoChoisirViande
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(2, 1)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
@@ -268,6 +270,15 @@ Partial Class EcoChoisirViande
         Me.Button2.TabIndex = 140
         Me.Button2.Text = "Poulet"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(286, 44)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(93, 17)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "Economique !"
         '
         'EcoChoisirViande
         '
@@ -322,4 +333,5 @@ Partial Class EcoChoisirViande
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label6 As Label
 End Class

@@ -4,28 +4,28 @@
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles LblPrixAli.Click
-
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim priceViande As New Integer
 
+        'Verifie si la checkBox est checker
         If CheckBox1.Checked = True Then
+            'Ajoute le produit a la liste de produit correspondant a la liste 
             FormVoirListe.LstBoxProduit.Items.Add(Button2.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox1.SelectedItem.ToString)
 
+            'Convertis les label (prix) et (combot box) en entier et les multiplie entre eux
             priceViande += (Convert.ToInt16(LblPrixAgneaux.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
 
+            'initialise le label total de la form viande au price total
             Label3.Text = priceViande.ToString
+
+            'Appel la procedure qui permet de calculer le prix total
             NouvelleListe.calcl(priceViande)
         End If
 
         If CheckBox2.Checked = True Then
             FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox2.SelectedItem.ToString)
 
             priceViande += (Convert.ToInt16(LblPrixAli.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
             Label3.Text = priceViande.ToString
@@ -34,6 +34,7 @@
 
         If CheckBox5.Checked = True Then
             FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox5.SelectedItem.ToString)
 
             priceViande += (Convert.ToInt16(LblPrixCochon.Text) * Convert.ToInt16(ComboBox5.SelectedItem))
             Label3.Text = priceViande.ToString
@@ -42,6 +43,8 @@
 
         If CheckBox5.Checked = True Then
             FormVoirListe.LstBoxProduit.Items.Add(Button5.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox6.SelectedItem.ToString)
+
 
             priceViande += (Convert.ToInt16(LblPrixLapin.Text) * Convert.ToInt16(ComboBox6.SelectedItem))
             Label3.Text = priceViande.ToString
@@ -84,4 +87,9 @@
             ListBox4.Visible = True
         End If
     End Sub
+
+    Private Sub ChoisirViande_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
 End Class

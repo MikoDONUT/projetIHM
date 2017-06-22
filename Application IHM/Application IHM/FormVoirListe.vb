@@ -12,15 +12,15 @@
 
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        LstBoxProduit.Items.Remove(LstBoxProduit.SelectedItem)
+        If LstQuant.SelectedItem = "" Then
+            LstQuant.Items.RemoveAt(LstBoxProduit.SelectedIndex)
+            LstBoxProduit.Items.Remove(LstBoxProduit.SelectedItem)
+        End If
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         LstBoxPartager.Items.Remove(LstBoxPartager.SelectedItem)
     End Sub
+
 End Class

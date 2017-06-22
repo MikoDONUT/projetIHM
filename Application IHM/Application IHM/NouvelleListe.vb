@@ -1,9 +1,6 @@
 ﻿Public Class NouvelleListe
     Dim priceTot As Integer = 0
     Public btnSaveClicked As Boolean = False
-    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
 
     'procedure servant a calculer le prix total des achats
     Public Sub calcl(price As Integer)
@@ -24,8 +21,6 @@
 
             EcoChoisirViande.Label1.Text = BoxNewList.Text
         End If
-
-
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles BtnSurgelé.Click
@@ -142,5 +137,9 @@
             'modifier le label de Autre a la valeur du text input
             EcoChoisirAutre.Label1.Text = BoxNewList.Text
         End If
+    End Sub
+
+    Private Sub NouvelleListe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

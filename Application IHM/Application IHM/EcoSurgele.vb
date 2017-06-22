@@ -10,6 +10,7 @@
 
         If CheckBox1.Checked = True Then
             FormVoirListe.LstBoxProduit.Items.Add(Button2.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox1.SelectedItem.ToString)
 
             priceSurg += (Convert.ToInt16(LblPrixGlace.Text) * Convert.ToInt16(ComboBox1.SelectedItem))
 
@@ -19,6 +20,7 @@
 
         If CheckBox2.Checked = True Then
             FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox2.SelectedItem.ToString)
 
             priceSurg += (Convert.ToInt16(LblPrixCordon.Text) * Convert.ToInt16(ComboBox2.SelectedItem))
             Label3.Text = priceSurg.ToString
@@ -27,6 +29,7 @@
 
         If CheckBox3.Checked = True Then
             FormVoirListe.LstBoxProduit.Items.Add(Button3.Text)
+            FormVoirListe.LstQuant.Items.Add(ComboBox3.SelectedItem.ToString)
 
             priceSurg += (Convert.ToInt16(LblPrixOignon.Text) * Convert.ToInt16(ComboBox3.SelectedItem))
             Label3.Text = priceSurg.ToString
@@ -63,4 +66,7 @@
         End If
     End Sub
 
+    Private Sub EcoSurgele_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

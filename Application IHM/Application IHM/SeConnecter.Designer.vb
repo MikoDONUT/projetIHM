@@ -24,6 +24,7 @@ Partial Class SeConnecter
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -44,19 +45,31 @@ Partial Class SeConnecter
         Me.Button2.Text = "Se Connecter"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(81, 56)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(107, 17)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Vous connecter"
+        '
         'SeConnecter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 403)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "SeConnecter"
         Me.Text = "SeConnecter"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label1 As Label
 End Class

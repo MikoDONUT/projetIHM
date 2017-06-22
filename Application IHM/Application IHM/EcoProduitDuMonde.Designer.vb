@@ -49,6 +49,7 @@ Partial Class EcoProduitDuMonde
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -336,11 +337,21 @@ Partial Class EcoProduitDuMonde
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nouvelle Liste"
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(288, 47)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(93, 17)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Economique !"
+        '
         'EcoProduitDuMonde
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(382, 503)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.ListBox3)
@@ -401,4 +412,5 @@ Partial Class EcoProduitDuMonde
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label8 As Label
 End Class

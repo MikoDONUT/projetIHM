@@ -64,7 +64,7 @@ Partial Class ChoisirViande
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(1, 2)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(379, 64)
         Me.Panel1.TabIndex = 2
@@ -87,7 +87,7 @@ Partial Class ChoisirViande
         Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Location = New System.Drawing.Point(1, 455)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(379, 57)
         Me.Panel2.TabIndex = 3
@@ -146,7 +146,7 @@ Partial Class ChoisirViande
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
         Me.ComboBox1.Location = New System.Drawing.Point(257, 161)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox1.TabIndex = 13
@@ -156,7 +156,7 @@ Partial Class ChoisirViande
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
         Me.ComboBox2.Location = New System.Drawing.Point(257, 218)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox2.TabIndex = 15
@@ -166,7 +166,7 @@ Partial Class ChoisirViande
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
         Me.ComboBox5.Location = New System.Drawing.Point(256, 287)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox5.TabIndex = 21
@@ -176,7 +176,7 @@ Partial Class ChoisirViande
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
         Me.ComboBox6.Location = New System.Drawing.Point(256, 354)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(65, 24)
         Me.ComboBox6.TabIndex = 23
@@ -185,7 +185,7 @@ Partial Class ChoisirViande
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(343, 165)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox1.TabIndex = 25
@@ -195,7 +195,7 @@ Partial Class ChoisirViande
         '
         Me.CheckBox2.AutoSize = True
         Me.CheckBox2.Location = New System.Drawing.Point(343, 222)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox2.TabIndex = 26
@@ -205,7 +205,7 @@ Partial Class ChoisirViande
         '
         Me.CheckBox5.AutoSize = True
         Me.CheckBox5.Location = New System.Drawing.Point(343, 294)
-        Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox5.TabIndex = 29
@@ -215,7 +215,7 @@ Partial Class ChoisirViande
         '
         Me.CheckBox6.AutoSize = True
         Me.CheckBox6.Location = New System.Drawing.Point(343, 362)
-        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(18, 17)
         Me.CheckBox6.TabIndex = 30
@@ -359,7 +359,7 @@ Partial Class ChoisirViande
         Me.ListBox1.ItemHeight = 16
         Me.ListBox1.Items.AddRange(New Object() {"Poids : 100g piéce", "Marque : Fleuri-mignon", "Pays : France", "Bio : OUI"})
         Me.ListBox1.Location = New System.Drawing.Point(28, 187)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(124, 68)
         Me.ListBox1.TabIndex = 115
@@ -371,7 +371,7 @@ Partial Class ChoisirViande
         Me.ListBox2.ItemHeight = 16
         Me.ListBox2.Items.AddRange(New Object() {"Poids : 400g piéce", "Marque : Crochocolo", "Pays : Australie", "Bio : OUI"})
         Me.ListBox2.Location = New System.Drawing.Point(28, 235)
-        Me.ListBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(124, 68)
         Me.ListBox2.TabIndex = 116
@@ -383,7 +383,7 @@ Partial Class ChoisirViande
         Me.ListBox3.ItemHeight = 16
         Me.ListBox3.Items.AddRange(New Object() {"Poids : 200g piéce", "Marque : Cochoulouloulou", "Pays : France", "Bio : NON"})
         Me.ListBox3.Location = New System.Drawing.Point(27, 298)
-        Me.ListBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ListBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.ListBox3.Name = "ListBox3"
         Me.ListBox3.Size = New System.Drawing.Size(124, 68)
         Me.ListBox3.TabIndex = 117
@@ -395,7 +395,7 @@ Partial Class ChoisirViande
         Me.ListBox4.ItemHeight = 16
         Me.ListBox4.Items.AddRange(New Object() {"Poids : 250g piéce", "Marque : Bunny Speddy", "Pays : France", "Bio : NON"})
         Me.ListBox4.Location = New System.Drawing.Point(28, 374)
-        Me.ListBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ListBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.ListBox4.Name = "ListBox4"
         Me.ListBox4.Size = New System.Drawing.Size(124, 68)
         Me.ListBox4.TabIndex = 118
@@ -435,7 +435,7 @@ Partial Class ChoisirViande
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ChoisirViande"
         Me.Text = "ChoisirViande"
         Me.Panel1.ResumeLayout(False)
