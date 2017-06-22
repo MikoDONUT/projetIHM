@@ -120,6 +120,18 @@
     <Compile Include="EcoChoisirViande.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="EcoEpice.Designer.vb">
+      <DependentUpon>EcoEpice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EcoEpice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoFruitLegumes.Designer.vb">
+      <DependentUpon>EcoFruitLegumes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EcoFruitLegumes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="EcoSurgele.Designer.vb">
       <DependentUpon>EcoSurgele.vb</DependentUpon>
     </Compile>
@@ -227,6 +239,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EcoChoisirViande.resx">
       <DependentUpon>EcoChoisirViande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EcoEpice.resx">
+      <DependentUpon>EcoEpice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EcoFruitLegumes.resx">
+      <DependentUpon>EcoFruitLegumes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EcoSurgele.resx">
       <DependentUpon>EcoSurgele.vb</DependentUpon>

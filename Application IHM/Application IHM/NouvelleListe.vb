@@ -37,11 +37,9 @@
 
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
+            EcoSurgele.Show()
 
         End If
-
-
-
 
     End Sub
 
@@ -55,6 +53,7 @@
 
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
+            EcoFruitLegumes.Show()
         End If
 
     End Sub
