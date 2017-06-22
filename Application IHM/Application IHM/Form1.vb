@@ -97,4 +97,8 @@ Public Class Form1
     Private Sub ButtonFinish_Click(sender As Object, e As EventArgs) Handles ButtonFinish.Click
         Finish.Show()
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Importer.Show()
+    End Sub
 End Class

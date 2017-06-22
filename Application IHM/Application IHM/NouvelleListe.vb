@@ -6,6 +6,7 @@
     Public Sub calcl(price As Integer)
         priceTot += price
         Label3.Text = priceTot.ToString
+
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Form1.Label2.Text = "" Then

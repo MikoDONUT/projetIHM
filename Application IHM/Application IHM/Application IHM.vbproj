@@ -108,6 +108,7 @@
     <Compile Include="ChoisirViande.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ClassLoader.vb" />
     <Compile Include="CreeId.Designer.vb">
       <DependentUpon>CreeId.vb</DependentUpon>
     </Compile>
@@ -185,6 +186,12 @@
       <DependentUpon>IdForm.vb</DependentUpon>
     </Compile>
     <Compile Include="IdForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Importer.Designer.vb">
+      <DependentUpon>Importer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Importer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -290,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IdForm.resx">
       <DependentUpon>IdForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Importer.resx">
+      <DependentUpon>Importer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

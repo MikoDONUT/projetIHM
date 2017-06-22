@@ -36,6 +36,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ButtonFinish = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -81,7 +82,7 @@ Partial Class Form1
         Me.BtnShare.Location = New System.Drawing.Point(233, 368)
         Me.BtnShare.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnShare.Name = "BtnShare"
-        Me.BtnShare.Size = New System.Drawing.Size(133, 73)
+        Me.BtnShare.Size = New System.Drawing.Size(133, 52)
         Me.BtnShare.TabIndex = 1
         Me.BtnShare.Text = "Partager"
         Me.BtnShare.UseVisualStyleBackColor = False
@@ -101,7 +102,7 @@ Partial Class Form1
         '
         'Btnoption
         '
-        Me.Btnoption.Location = New System.Drawing.Point(291, 464)
+        Me.Btnoption.Location = New System.Drawing.Point(304, 56)
         Me.Btnoption.Name = "Btnoption"
         Me.Btnoption.Size = New System.Drawing.Size(75, 30)
         Me.Btnoption.TabIndex = 7
@@ -179,12 +180,23 @@ Partial Class Form1
         '
         Me.ButtonFinish.BackColor = System.Drawing.Color.Yellow
         Me.ButtonFinish.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
-        Me.ButtonFinish.Location = New System.Drawing.Point(62, 447)
+        Me.ButtonFinish.Location = New System.Drawing.Point(12, 447)
         Me.ButtonFinish.Name = "ButtonFinish"
         Me.ButtonFinish.Size = New System.Drawing.Size(130, 47)
         Me.ButtonFinish.TabIndex = 15
         Me.ButtonFinish.Text = "Finir"
         Me.ButtonFinish.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Button3.Location = New System.Drawing.Point(233, 427)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(132, 52)
+        Me.Button3.TabIndex = 16
+        Me.Button3.Text = "Importer "
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Form1
         '
@@ -192,6 +204,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(379, 506)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.ButtonFinish)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
@@ -229,4 +242,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents ButtonFinish As Button
+    Friend WithEvents Button3 As Button
 End Class
