@@ -28,6 +28,7 @@ Partial Class Importer
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.BtnRetour = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -85,11 +86,21 @@ Partial Class Importer
         Me.ListBox2.Size = New System.Drawing.Size(161, 84)
         Me.ListBox2.TabIndex = 5
         '
+        'BtnRetour
+        '
+        Me.BtnRetour.Location = New System.Drawing.Point(1, -4)
+        Me.BtnRetour.Name = "BtnRetour"
+        Me.BtnRetour.Size = New System.Drawing.Size(110, 37)
+        Me.BtnRetour.TabIndex = 11
+        Me.BtnRetour.Text = "Retour"
+        Me.BtnRetour.UseVisualStyleBackColor = True
+        '
         'Importer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(382, 503)
+        Me.Controls.Add(Me.BtnRetour)
         Me.Controls.Add(Me.ListBox2)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Button1)
@@ -109,4 +120,5 @@ Partial Class Importer
     Friend WithEvents Button1 As Button
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents ListBox2 As ListBox
+    Friend WithEvents BtnRetour As Button
 End Class

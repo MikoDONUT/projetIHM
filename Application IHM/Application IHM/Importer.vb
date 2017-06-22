@@ -28,4 +28,8 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form1.ListProduit.Items.Add(ListBox2.SelectedItem)
     End Sub
+
+    Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click
+        Me.Dispose()
+    End Sub
 End Class
