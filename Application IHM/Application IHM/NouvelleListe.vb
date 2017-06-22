@@ -21,6 +21,8 @@
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
             EcoChoisirViande.Show()
+
+            EcoChoisirViande.Label1.Text = BoxNewList.Text
         End If
 
 
@@ -39,6 +41,8 @@
             IsEco.Text = "Economique"
             EcoSurgele.Show()
 
+            EcoSurgele.Label1.Text = BoxNewList.Text
+
         End If
 
     End Sub
@@ -54,6 +58,8 @@
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
             EcoFruitLegumes.Show()
+
+            EcoFruitLegumes.Label1.Text = BoxNewList.Text
         End If
 
     End Sub
@@ -68,6 +74,9 @@
 
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
+            EcoEpice.Show()
+
+            EcoEpice.Label1.Text = BoxNewList.Text
         End If
 
     End Sub
@@ -82,6 +91,9 @@
 
         ElseIf Form1.Label2.Text = "Economique" Then
             IsEco.Text = "Economique"
+            EcoProduitDuMonde.Show()
+
+            EcoProduitDuMonde.Label1.Text = BoxNewList.Text
         End If
 
     End Sub
@@ -103,22 +115,6 @@
         MsgBox("Votre Liste a ete sauvegarder")
     End Sub
 
-    Private Sub BoxtxtNew_TextChanged(sender As Object, e As EventArgs) Handles BoxNewList.TextChanged
-
-    End Sub
-
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        ChoisirAutre.Show()
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
-
-    Private Sub NouvelleListe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub NouvelleListe_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         'Verifie si la liste a bien ete enrengistrer avant de fermer la fenetre
         If Not btnSaveClicked Then
@@ -129,5 +125,22 @@
     End Sub
     Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles Button3.Click
         FormScann.Show()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        'Verifie si l'option eco est activer
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
+            ChoisirAutre.Show()
+            'modifier le label de Autre a la valeur du text input
+            ChoisirAutre.Label1.Text = BoxNewList.Text
+
+        ElseIf Form1.Label2.Text = "Economique" Then
+            IsEco.Text = "Economique"
+            EcoChoisirAutre.Show()
+
+            'modifier le label de Autre a la valeur du text input
+            EcoChoisirAutre.Label1.Text = BoxNewList.Text
+        End If
     End Sub
 End Class
