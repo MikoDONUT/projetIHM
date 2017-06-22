@@ -68,7 +68,7 @@ Partial Class Form1
         Me.BtnNew.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BtnNew.Enabled = False
         Me.BtnNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnNew.Location = New System.Drawing.Point(234, 85)
+        Me.BtnNew.Location = New System.Drawing.Point(235, 83)
         Me.BtnNew.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnNew.Name = "BtnNew"
         Me.BtnNew.Size = New System.Drawing.Size(133, 73)
