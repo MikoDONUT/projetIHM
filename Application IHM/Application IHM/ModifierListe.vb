@@ -96,15 +96,13 @@
         End Sub
 
         Private Sub BtnRetour_Click(sender As Object, e As EventArgs) Handles BtnRetour.Click
-            'Verifie si la liste a bien ete enrengistrer avant de faire un retour
-            If btnSaveClicked = True Then
-                Me.Dispose()
-            Else
-                AvertissementSave.Show()
-            End If
-
-
-        End Sub
+        'Verifie si la liste a bien ete enrengistrer avant de faire un retour
+        If btnSaveClicked = True Then
+            Me.Dispose()
+        Else
+            AvertissementSave.Show()
+        End If
+    End Sub
 
         Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
             btnSaveClicked = True
@@ -124,22 +122,20 @@
             FormScann.Show()
         End Sub
 
-        Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-            'Verifie si l'option eco est activer
-            If Form1.Label2.Text = "" Then
-                IsEco.Text = ""
-                ChoisirAutre.Show()
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        'Verifie si l'option eco est activer
+        If Form1.Label2.Text = "" Then
+            IsEco.Text = ""
+            ChoisirAutre.Show()
             'modifier le label de Autre a la valeur du text input
             ChoisirAutre.Label1.Text = Label1.Text
 
         ElseIf Form1.Label2.Text = "Economique" Then
-                IsEco.Text = "Economique"
-                EcoChoisirAutre.Show()
+            IsEco.Text = "Economique"
+            EcoChoisirAutre.Show()
 
             'modifier le label de Autre a la valeur du text input
             EcoChoisirAutre.Label1.Text = Label1.Text
         End If
-        End Sub
-
-
+    End Sub
 End Class

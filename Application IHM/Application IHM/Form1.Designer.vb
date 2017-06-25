@@ -173,9 +173,11 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(248, 62)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
+        Me.Label2.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Label2.Location = New System.Drawing.Point(226, 63)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 17)
+        Me.Label2.Size = New System.Drawing.Size(0, 26)
         Me.Label2.TabIndex = 14
         '
         'ButtonFinish
@@ -193,6 +195,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Button3.Enabled = False
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!)
         Me.Button3.Location = New System.Drawing.Point(233, 427)
         Me.Button3.Name = "Button3"

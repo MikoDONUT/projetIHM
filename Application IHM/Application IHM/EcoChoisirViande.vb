@@ -32,4 +32,8 @@
             ListBox3.Visible = True
         End If
     End Sub
+
+    Private Sub EcoChoisirViande_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

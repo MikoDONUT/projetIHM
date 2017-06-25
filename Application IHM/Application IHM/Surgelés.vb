@@ -45,9 +45,6 @@
             Label3.Text = priceSurg.ToString
             NouvelleListe.calcl(priceSurg)
         End If
-
-
-
     End Sub
 
     Private Sub BtnRetour_Click_1(sender As Object, e As EventArgs) Handles BtnRetour.Click
@@ -86,7 +83,5 @@
         End If
     End Sub
 
-    Private Sub ChoisirSurgelés_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class

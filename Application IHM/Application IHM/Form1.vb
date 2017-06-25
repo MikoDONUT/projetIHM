@@ -53,6 +53,14 @@ Public Class Form1
             ButtonFinish.Enabled = True
         End If
 
+        'Btn importer
+        If ListProduit.SelectedItem = "" And Button2.Enabled = False Then
+            Button3.Enabled = False
+
+        Else
+            Button3.Enabled = True
+        End If
+
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles BtnRm.Click
@@ -81,7 +89,6 @@ Public Class Form1
 
         'Active le boutton login
         Button1.Enabled = True
-
 
 
         'Vide la liste box

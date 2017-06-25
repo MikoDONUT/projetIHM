@@ -41,9 +41,9 @@ Partial Class EcoChoisirViande
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -250,6 +250,15 @@ Partial Class EcoChoisirViande
         Me.Panel1.Size = New System.Drawing.Size(379, 64)
         Me.Panel1.TabIndex = 119
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(286, 44)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(93, 17)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "Economique !"
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -270,15 +279,6 @@ Partial Class EcoChoisirViande
         Me.Button2.TabIndex = 140
         Me.Button2.Text = "Poulet"
         Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(286, 44)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(93, 17)
-        Me.Label6.TabIndex = 2
-        Me.Label6.Text = "Economique !"
         '
         'EcoChoisirViande
         '

@@ -51,8 +51,4 @@
 
 
     End Sub
-
-    Private Sub ChoisirFruitEtLegumes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class

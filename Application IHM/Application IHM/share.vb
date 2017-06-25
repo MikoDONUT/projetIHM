@@ -15,4 +15,5 @@
         Form1.Show()
         Me.Dispose()
     End Sub
+
 End Class

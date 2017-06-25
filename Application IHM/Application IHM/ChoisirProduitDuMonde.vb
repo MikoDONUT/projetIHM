@@ -85,11 +85,7 @@
         Else
             ListBox4.Visible = True
         End If
-
-
     End Sub
 
-    Private Sub ChoisirProduitDuMonde_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class
